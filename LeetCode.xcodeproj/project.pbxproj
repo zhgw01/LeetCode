@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		11CF6F3A172571CE008D0992 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11CF6F39172571CE008D0992 /* main.cpp */; };
 		11CF6F3C172571CE008D0992 /* LeetCode.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 11CF6F3B172571CE008D0992 /* LeetCode.1 */; };
+		11CF6F4417257212008D0992 /* IRun.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11CF6F4217257212008D0992 /* IRun.cpp */; };
+		11CF6F4817257353008D0992 /* ReverseDigit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11CF6F4617257353008D0992 /* ReverseDigit.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		11CF6F36172571CE008D0992 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		11CF6F39172571CE008D0992 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		11CF6F3B172571CE008D0992 /* LeetCode.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LeetCode.1; sourceTree = "<group>"; };
+		11CF6F4217257212008D0992 /* IRun.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IRun.cpp; sourceTree = "<group>"; };
+		11CF6F4317257212008D0992 /* IRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRun.h; sourceTree = "<group>"; };
+		11CF6F4617257353008D0992 /* ReverseDigit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseDigit.cpp; sourceTree = "<group>"; };
+		11CF6F4717257353008D0992 /* ReverseDigit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReverseDigit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +66,22 @@
 		11CF6F38172571CE008D0992 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				11CF6F451725723F008D0992 /* Number */,
 				11CF6F39172571CE008D0992 /* main.cpp */,
 				11CF6F3B172571CE008D0992 /* LeetCode.1 */,
+				11CF6F4217257212008D0992 /* IRun.cpp */,
+				11CF6F4317257212008D0992 /* IRun.h */,
 			);
 			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		11CF6F451725723F008D0992 /* Number */ = {
+			isa = PBXGroup;
+			children = (
+				11CF6F4617257353008D0992 /* ReverseDigit.cpp */,
+				11CF6F4717257353008D0992 /* ReverseDigit.h */,
+			);
+			name = Number;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +136,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				11CF6F3A172571CE008D0992 /* main.cpp in Sources */,
+				11CF6F4417257212008D0992 /* IRun.cpp in Sources */,
+				11CF6F4817257353008D0992 /* ReverseDigit.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
