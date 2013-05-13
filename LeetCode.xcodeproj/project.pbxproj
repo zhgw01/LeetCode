@@ -11,6 +11,7 @@
 		11CF6F3C172571CE008D0992 /* LeetCode.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 11CF6F3B172571CE008D0992 /* LeetCode.1 */; };
 		11CF6F4417257212008D0992 /* IRun.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11CF6F4217257212008D0992 /* IRun.cpp */; };
 		11CF6F4817257353008D0992 /* ReverseDigit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11CF6F4617257353008D0992 /* ReverseDigit.cpp */; };
+		11CF6F4B1727AA85008D0992 /* String2Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11CF6F491727AA85008D0992 /* String2Number.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		11CF6F4317257212008D0992 /* IRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRun.h; sourceTree = "<group>"; };
 		11CF6F4617257353008D0992 /* ReverseDigit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseDigit.cpp; sourceTree = "<group>"; };
 		11CF6F4717257353008D0992 /* ReverseDigit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReverseDigit.h; sourceTree = "<group>"; };
+		11CF6F491727AA85008D0992 /* String2Number.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = String2Number.cpp; sourceTree = "<group>"; };
+		11CF6F4A1727AA85008D0992 /* String2Number.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = String2Number.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 			children = (
 				11CF6F4617257353008D0992 /* ReverseDigit.cpp */,
 				11CF6F4717257353008D0992 /* ReverseDigit.h */,
+				11CF6F491727AA85008D0992 /* String2Number.cpp */,
+				11CF6F4A1727AA85008D0992 /* String2Number.h */,
 			);
 			name = Number;
 			sourceTree = "<group>";
@@ -138,6 +143,7 @@
 				11CF6F3A172571CE008D0992 /* main.cpp in Sources */,
 				11CF6F4417257212008D0992 /* IRun.cpp in Sources */,
 				11CF6F4817257353008D0992 /* ReverseDigit.cpp in Sources */,
+				11CF6F4B1727AA85008D0992 /* String2Number.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +242,7 @@
 				11CF6F41172571CE008D0992 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
