@@ -10,13 +10,14 @@
 #include "IRun.h"
 #include "ReverseDigit.h"
 #include "String2Number.h"
+#include "PalindromeNumber.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(String2Number);
+    REGISTER_CLASS(PalindromeNumber);
     DemoFactory::getInstance()->run();
     return 0;
 }
