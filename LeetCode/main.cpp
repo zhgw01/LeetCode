@@ -11,13 +11,14 @@
 #include "ReverseDigit.h"
 #include "String2Number.h"
 #include "PalindromeNumber.h"
+#include "RegularExpressionMatching.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(PalindromeNumber);
+    REGISTER_CLASS(RegularExpressionMatching);
     DemoFactory::getInstance()->run();
     return 0;
 }
