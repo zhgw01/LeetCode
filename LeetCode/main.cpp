@@ -13,13 +13,16 @@
 #include "PalindromeNumber.h"
 #include "RegularExpressionMatching.h"
 #include "Container.h"
+#include "LCP.h"
+#include "3Number.h"
+#include "3SumClosest.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(Container);
+    REGISTER_CLASS(ThreeSumClosest);
     DemoFactory::getInstance()->run();
     return 0;
 }
