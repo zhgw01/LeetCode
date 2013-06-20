@@ -17,6 +17,12 @@ public:
     
     virtual void run();
     
+private:
+    int threeSumClosest(std::vector<int> &num, int target);
+    
+    void test1();
+    void test2();
+    
 };
 
 #endif /* defined(__LeetCode___SumClosest__) */
