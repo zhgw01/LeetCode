@@ -11,6 +11,7 @@
 		11612A30174112EF00E3209E /* PalindromeNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11612A2E174112EF00E3209E /* PalindromeNumber.cpp */; };
 		11612A34174114D200E3209E /* RegularExpressionMatching.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11612A32174114D200E3209E /* RegularExpressionMatching.cpp */; };
 		11612A371743CB3A00E3209E /* Container.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11612A351743CB3A00E3209E /* Container.cpp */; };
+		118E5072177493ED004D75CD /* 4Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 118E5070177493ED004D75CD /* 4Sum.cpp */; };
 		11B4B2F9174A777600EA2EF5 /* LCP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11B4B2F7174A777600EA2EF5 /* LCP.cpp */; };
 		11CF6F3A172571CE008D0992 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11CF6F39172571CE008D0992 /* main.cpp */; };
 		11CF6F3C172571CE008D0992 /* LeetCode.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 11CF6F3B172571CE008D0992 /* LeetCode.1 */; };
@@ -42,6 +43,8 @@
 		11612A33174114D200E3209E /* RegularExpressionMatching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegularExpressionMatching.h; sourceTree = "<group>"; };
 		11612A351743CB3A00E3209E /* Container.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Container.cpp; sourceTree = "<group>"; };
 		11612A361743CB3A00E3209E /* Container.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Container.h; sourceTree = "<group>"; };
+		118E5070177493ED004D75CD /* 4Sum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 4Sum.cpp; sourceTree = "<group>"; };
+		118E5071177493ED004D75CD /* 4Sum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 4Sum.h; sourceTree = "<group>"; };
 		11B4B2F7174A777600EA2EF5 /* LCP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LCP.cpp; sourceTree = "<group>"; };
 		11B4B2F8174A777600EA2EF5 /* LCP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCP.h; sourceTree = "<group>"; };
 		11CF6F36172571CE008D0992 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +126,8 @@
 				11F42F8D1771EE6000CD5E7E /* 3Number.h */,
 				1151DF4C17733FFF004DFA95 /* 3SumClosest.cpp */,
 				1151DF4D17733FFF004DFA95 /* 3SumClosest.h */,
+				118E5070177493ED004D75CD /* 4Sum.cpp */,
+				118E5071177493ED004D75CD /* 4Sum.h */,
 			);
 			name = Number;
 			sourceTree = "<group>";
@@ -188,6 +193,7 @@
 				11B4B2F9174A777600EA2EF5 /* LCP.cpp in Sources */,
 				11F42F8E1771EE6000CD5E7E /* 3Number.cpp in Sources */,
 				1151DF4E17733FFF004DFA95 /* 3SumClosest.cpp in Sources */,
+				118E5072177493ED004D75CD /* 4Sum.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
