@@ -20,13 +20,14 @@
 #include "PhoneNumber.h"
 #include "NthNode.h"
 #include "ValidParentheses.h"
+#include "GenerateParentheses.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(Parentheses);
+    REGISTER_CLASS(GenerateParentheses);
     DemoFactory::getInstance()->run();
     return 0;
 }
