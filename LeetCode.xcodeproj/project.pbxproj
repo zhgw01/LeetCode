@@ -14,6 +14,7 @@
 		118E5072177493ED004D75CD /* 4Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 118E5070177493ED004D75CD /* 4Sum.cpp */; };
 		119580801775507E0035071E /* PhoneNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1195807E1775507E0035071E /* PhoneNumber.cpp */; };
 		11B4B2F9174A777600EA2EF5 /* LCP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11B4B2F7174A777600EA2EF5 /* LCP.cpp */; };
+		11C1FF261776BC8B00A6F862 /* NthNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11C1FF241776BC8B00A6F862 /* NthNode.cpp */; };
 		11CF6F3A172571CE008D0992 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11CF6F39172571CE008D0992 /* main.cpp */; };
 		11CF6F3C172571CE008D0992 /* LeetCode.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 11CF6F3B172571CE008D0992 /* LeetCode.1 */; };
 		11CF6F4417257212008D0992 /* IRun.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11CF6F4217257212008D0992 /* IRun.cpp */; };
@@ -50,6 +51,8 @@
 		1195807F1775507E0035071E /* PhoneNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneNumber.h; sourceTree = "<group>"; };
 		11B4B2F7174A777600EA2EF5 /* LCP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LCP.cpp; sourceTree = "<group>"; };
 		11B4B2F8174A777600EA2EF5 /* LCP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCP.h; sourceTree = "<group>"; };
+		11C1FF241776BC8B00A6F862 /* NthNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NthNode.cpp; sourceTree = "<group>"; };
+		11C1FF251776BC8B00A6F862 /* NthNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NthNode.h; sourceTree = "<group>"; };
 		11CF6F36172571CE008D0992 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		11CF6F39172571CE008D0992 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		11CF6F3B172571CE008D0992 /* LeetCode.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LeetCode.1; sourceTree = "<group>"; };
@@ -87,6 +90,15 @@
 			name = String;
 			sourceTree = "<group>";
 		};
+		11C1FF231776BC7C00A6F862 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				11C1FF241776BC8B00A6F862 /* NthNode.cpp */,
+				11C1FF251776BC8B00A6F862 /* NthNode.h */,
+			);
+			name = List;
+			sourceTree = "<group>";
+		};
 		11CF6F2D172571CE008D0992 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +118,7 @@
 		11CF6F38172571CE008D0992 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				11C1FF231776BC7C00A6F862 /* List */,
 				11612A31174114AB00E3209E /* String */,
 				11CF6F451725723F008D0992 /* Number */,
 				11CF6F39172571CE008D0992 /* main.cpp */,
@@ -200,6 +213,7 @@
 				1151DF4E17733FFF004DFA95 /* 3SumClosest.cpp in Sources */,
 				118E5072177493ED004D75CD /* 4Sum.cpp in Sources */,
 				119580801775507E0035071E /* PhoneNumber.cpp in Sources */,
+				11C1FF261776BC8B00A6F862 /* NthNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

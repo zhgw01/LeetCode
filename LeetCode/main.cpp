@@ -18,13 +18,14 @@
 #include "3SumClosest.h"
 #include "4Sum.h"
 #include "PhoneNumber.h"
+#include "NthNode.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(PhoneNumber);
+    REGISTER_CLASS(NthNode);
     DemoFactory::getInstance()->run();
     return 0;
 }
