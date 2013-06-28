@@ -21,13 +21,14 @@
 #include "NthNode.h"
 #include "ValidParentheses.h"
 #include "GenerateParentheses.h"
+#include "MergeKList.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(GenerateParentheses);
+    REGISTER_CLASS(MergeKList);
     DemoFactory::getInstance()->run();
     return 0;
 }
