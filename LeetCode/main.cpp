@@ -26,13 +26,14 @@
 #include "ReverseKNode.h"
 #include "RemoveDuplicate.h"
 #include "RemoveElement.h"
+#include "StrStr.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(RemoveElement);
+    REGISTER_CLASS(StrStr);
     DemoFactory::getInstance()->run();
     return 0;
 }
