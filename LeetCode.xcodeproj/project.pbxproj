@@ -18,6 +18,7 @@
 		11A3983F177D8BF70048555B /* ReverseKNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11A3983D177D8BF70048555B /* ReverseKNode.cpp */; };
 		11A39842177D92DE0048555B /* ListNodeUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11A39840177D92DE0048555B /* ListNodeUtil.cpp */; };
 		11B4B2F9174A777600EA2EF5 /* LCP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11B4B2F7174A777600EA2EF5 /* LCP.cpp */; };
+		11C1C914177DE62700613D0E /* RemoveDuplicate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11C1C912177DE62700613D0E /* RemoveDuplicate.cpp */; };
 		11C1FF261776BC8B00A6F862 /* NthNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11C1FF241776BC8B00A6F862 /* NthNode.cpp */; };
 		11C1FF291776C0EB00A6F862 /* ValidParentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11C1FF271776C0EB00A6F862 /* ValidParentheses.cpp */; };
 		11C1FF2C1776C47900A6F862 /* GenerateParentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11C1FF2A1776C47900A6F862 /* GenerateParentheses.cpp */; };
@@ -65,6 +66,8 @@
 		11A39841177D92DE0048555B /* ListNodeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListNodeUtil.h; sourceTree = "<group>"; };
 		11B4B2F7174A777600EA2EF5 /* LCP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LCP.cpp; sourceTree = "<group>"; };
 		11B4B2F8174A777600EA2EF5 /* LCP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCP.h; sourceTree = "<group>"; };
+		11C1C912177DE62700613D0E /* RemoveDuplicate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveDuplicate.cpp; sourceTree = "<group>"; };
+		11C1C913177DE62700613D0E /* RemoveDuplicate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoveDuplicate.h; sourceTree = "<group>"; };
 		11C1FF241776BC8B00A6F862 /* NthNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NthNode.cpp; sourceTree = "<group>"; };
 		11C1FF251776BC8B00A6F862 /* NthNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NthNode.h; sourceTree = "<group>"; };
 		11C1FF271776C0EB00A6F862 /* ValidParentheses.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ValidParentheses.cpp; sourceTree = "<group>"; };
@@ -112,6 +115,15 @@
 			name = String;
 			sourceTree = "<group>";
 		};
+		11C1C911177DE5FF00613D0E /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				11C1C912177DE62700613D0E /* RemoveDuplicate.cpp */,
+				11C1C913177DE62700613D0E /* RemoveDuplicate.h */,
+			);
+			name = Array;
+			sourceTree = "<group>";
+		};
 		11C1FF231776BC7C00A6F862 /* List */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +160,7 @@
 		11CF6F38172571CE008D0992 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				11C1C911177DE5FF00613D0E /* Array */,
 				11C1FF231776BC7C00A6F862 /* List */,
 				11612A31174114AB00E3209E /* String */,
 				11CF6F451725723F008D0992 /* Number */,
@@ -250,6 +263,7 @@
 				111D6671177D81C000AC9D85 /* SwapNode.cpp in Sources */,
 				11A3983F177D8BF70048555B /* ReverseKNode.cpp in Sources */,
 				11A39842177D92DE0048555B /* ListNodeUtil.cpp in Sources */,
+				11C1C914177DE62700613D0E /* RemoveDuplicate.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
