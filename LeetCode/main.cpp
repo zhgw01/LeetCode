@@ -23,13 +23,14 @@
 #include "GenerateParentheses.h"
 #include "MergeKList.h"
 #include "SwapNode.h"
+#include "ReverseKNode.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(SwapNode);
+    REGISTER_CLASS(ReverseKNode);
     DemoFactory::getInstance()->run();
     return 0;
 }
