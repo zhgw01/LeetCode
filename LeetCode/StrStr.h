@@ -21,6 +21,7 @@ private:
     void test2();
 
     char *strStr(char *haystack, char *needle);
+    char *strStr2(char *haystack, char *needle);
 };
 
 #endif /* defined(__LeetCode__StrStr__) */
