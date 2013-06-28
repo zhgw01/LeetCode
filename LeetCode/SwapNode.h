@@ -10,8 +10,7 @@
 #define __LeetCode__SwapNode__
 
 #include "IRun.h"
-
-#include "IRun.h"
+#include "NthNode.h"
 
 class SwapNode : public IRun{
 public:
@@ -19,6 +18,8 @@ public:
     
 private:
     void test1();
+    
+    ListNode *swapPairs(ListNode *head);
 };
 
 

@@ -22,13 +22,14 @@
 #include "ValidParentheses.h"
 #include "GenerateParentheses.h"
 #include "MergeKList.h"
+#include "SwapNode.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(MergeKList);
+    REGISTER_CLASS(SwapNode);
     DemoFactory::getInstance()->run();
     return 0;
 }
