@@ -27,13 +27,14 @@
 #include "RemoveDuplicate.h"
 #include "RemoveElement.h"
 #include "StrStr.h"
+#include "DivideInteger.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(StrStr);
+    REGISTER_CLASS(DivideInteger);
     DemoFactory::getInstance()->run();
     return 0;
 }

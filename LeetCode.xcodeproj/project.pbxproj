@@ -17,6 +17,7 @@
 		119580801775507E0035071E /* PhoneNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1195807E1775507E0035071E /* PhoneNumber.cpp */; };
 		11A3983F177D8BF70048555B /* ReverseKNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11A3983D177D8BF70048555B /* ReverseKNode.cpp */; };
 		11A39842177D92DE0048555B /* ListNodeUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11A39840177D92DE0048555B /* ListNodeUtil.cpp */; };
+		11AF232A1781B8C900332F8A /* DivideInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11AF23281781B8C900332F8A /* DivideInteger.cpp */; };
 		11B4B2F9174A777600EA2EF5 /* LCP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11B4B2F7174A777600EA2EF5 /* LCP.cpp */; };
 		11C1C914177DE62700613D0E /* RemoveDuplicate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11C1C912177DE62700613D0E /* RemoveDuplicate.cpp */; };
 		11C1C917177DE7A400613D0E /* RemoveElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11C1C915177DE7A400613D0E /* RemoveElement.cpp */; };
@@ -66,6 +67,8 @@
 		11A3983E177D8BF70048555B /* ReverseKNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReverseKNode.h; sourceTree = "<group>"; };
 		11A39840177D92DE0048555B /* ListNodeUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ListNodeUtil.cpp; sourceTree = "<group>"; };
 		11A39841177D92DE0048555B /* ListNodeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListNodeUtil.h; sourceTree = "<group>"; };
+		11AF23281781B8C900332F8A /* DivideInteger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DivideInteger.cpp; sourceTree = "<group>"; };
+		11AF23291781B8C900332F8A /* DivideInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DivideInteger.h; sourceTree = "<group>"; };
 		11B4B2F7174A777600EA2EF5 /* LCP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LCP.cpp; sourceTree = "<group>"; };
 		11B4B2F8174A777600EA2EF5 /* LCP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCP.h; sourceTree = "<group>"; };
 		11C1C912177DE62700613D0E /* RemoveDuplicate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveDuplicate.cpp; sourceTree = "<group>"; };
@@ -199,6 +202,8 @@
 				1151DF4D17733FFF004DFA95 /* 3SumClosest.h */,
 				118E5070177493ED004D75CD /* 4Sum.cpp */,
 				118E5071177493ED004D75CD /* 4Sum.h */,
+				11AF23281781B8C900332F8A /* DivideInteger.cpp */,
+				11AF23291781B8C900332F8A /* DivideInteger.h */,
 			);
 			name = Number;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 				11C1C914177DE62700613D0E /* RemoveDuplicate.cpp in Sources */,
 				11C1C917177DE7A400613D0E /* RemoveElement.cpp in Sources */,
 				11C1C91A177DE96600613D0E /* StrStr.cpp in Sources */,
+				11AF232A1781B8C900332F8A /* DivideInteger.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
