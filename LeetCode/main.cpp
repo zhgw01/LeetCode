@@ -28,13 +28,14 @@
 #include "RemoveElement.h"
 #include "StrStr.h"
 #include "DivideInteger.h"
+#include "ConCatWords.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(DivideInteger);
+    REGISTER_CLASS(ConCatWords);
     DemoFactory::getInstance()->run();
     return 0;
 }
