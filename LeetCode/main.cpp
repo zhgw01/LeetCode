@@ -29,13 +29,14 @@
 #include "StrStr.h"
 #include "DivideInteger.h"
 #include "ConCatWords.h"
+#include "NextPermutation.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(ConCatWords);
+    REGISTER_CLASS(NextPermutation);
     DemoFactory::getInstance()->run();
     return 0;
 }
