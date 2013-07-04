@@ -46,28 +46,25 @@ void NextPermutation::nextPermutation(std::vector<int> &num)
         }
     }
     
-    if (index == 0) {
-        //reverse the number
-        for (size_t i = 0; i < len/2; ++i) {
-            swap(num[i], num[len - 1 -i]);
-        }
-    }
-    else {
+    
+    //swap
+    if (index != 0) {
         size_t smallIndex = index;
         for (size_t i = index + 1; i < len; ++i) {
             if (num[i] > num[index - 1]) {
                 smallIndex = i;
             }
         }
-        
         swap(num[index - 1], num[smallIndex]);
-        size_t subLen = len - index;
-        size_t mid = subLen / 2;
-        for (size_t i = 0; i < mid; ++i) {
-            swap(num[index + i], num[index + subLen - 1 - i]);
-        }
     }
     
+    //reverse
+    size_t subLen = len - index;
+    size_t mid = subLen / 2;
+    for (size_t i = 0; i < mid; ++i) {
+        swap(num[index + i], num[index + subLen - 1 - i]);
+    }
+
   
     return;
 }
