@@ -33,13 +33,14 @@
 #include "LongestValidParentheses.h"
 #include "SearchRSA.h"
 #include "SearchRange.h"
+#include "SearchInsertPosition.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(SearchRange);
+    REGISTER_CLASS(SearchInsertPosition);
     DemoFactory::getInstance()->run();
     return 0;
 }
