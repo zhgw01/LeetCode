@@ -11,6 +11,7 @@
 		111D6671177D81C000AC9D85 /* SwapNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 111D666F177D81C000AC9D85 /* SwapNode.cpp */; };
 		113DD48F1787029C00D6623C /* LongestValidParentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 113DD48D1787029C00D6623C /* LongestValidParentheses.cpp */; };
 		113DD4931787E15E00D6623C /* SearchRSA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 113DD4911787E15E00D6623C /* SearchRSA.cpp */; };
+		113DD49617881F7900D6623C /* SearchRange.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 113DD49417881F7900D6623C /* SearchRange.cpp */; };
 		114CD9AF1779D6AF009F86BB /* MergeKList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 114CD9AD1779D6AF009F86BB /* MergeKList.cpp */; };
 		1151DF4E17733FFF004DFA95 /* 3SumClosest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1151DF4C17733FFF004DFA95 /* 3SumClosest.cpp */; };
 		11612A30174112EF00E3209E /* PalindromeNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11612A2E174112EF00E3209E /* PalindromeNumber.cpp */; };
@@ -60,6 +61,8 @@
 		113DD48E1787029C00D6623C /* LongestValidParentheses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongestValidParentheses.h; sourceTree = "<group>"; };
 		113DD4911787E15E00D6623C /* SearchRSA.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SearchRSA.cpp; sourceTree = "<group>"; };
 		113DD4921787E15E00D6623C /* SearchRSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchRSA.h; sourceTree = "<group>"; };
+		113DD49417881F7900D6623C /* SearchRange.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SearchRange.cpp; sourceTree = "<group>"; };
+		113DD49517881F7900D6623C /* SearchRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchRange.h; sourceTree = "<group>"; };
 		114CD9AD1779D6AF009F86BB /* MergeKList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeKList.cpp; sourceTree = "<group>"; };
 		114CD9AE1779D6AF009F86BB /* MergeKList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeKList.h; sourceTree = "<group>"; };
 		1151DF4C17733FFF004DFA95 /* 3SumClosest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 3SumClosest.cpp; sourceTree = "<group>"; };
@@ -136,6 +139,8 @@
 			children = (
 				113DD4911787E15E00D6623C /* SearchRSA.cpp */,
 				113DD4921787E15E00D6623C /* SearchRSA.h */,
+				113DD49417881F7900D6623C /* SearchRange.cpp */,
+				113DD49517881F7900D6623C /* SearchRange.h */,
 			);
 			name = Search;
 			sourceTree = "<group>";
@@ -328,6 +333,7 @@
 				110891E51785A9F600615813 /* ArrayUtil.cpp in Sources */,
 				113DD48F1787029C00D6623C /* LongestValidParentheses.cpp in Sources */,
 				113DD4931787E15E00D6623C /* SearchRSA.cpp in Sources */,
+				113DD49617881F7900D6623C /* SearchRange.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
