@@ -10,6 +10,7 @@
 		110891E51785A9F600615813 /* ArrayUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 110891E31785A9F600615813 /* ArrayUtil.cpp */; };
 		111D6671177D81C000AC9D85 /* SwapNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 111D666F177D81C000AC9D85 /* SwapNode.cpp */; };
 		113DD48F1787029C00D6623C /* LongestValidParentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 113DD48D1787029C00D6623C /* LongestValidParentheses.cpp */; };
+		113DD4931787E15E00D6623C /* SearchRSA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 113DD4911787E15E00D6623C /* SearchRSA.cpp */; };
 		114CD9AF1779D6AF009F86BB /* MergeKList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 114CD9AD1779D6AF009F86BB /* MergeKList.cpp */; };
 		1151DF4E17733FFF004DFA95 /* 3SumClosest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1151DF4C17733FFF004DFA95 /* 3SumClosest.cpp */; };
 		11612A30174112EF00E3209E /* PalindromeNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11612A2E174112EF00E3209E /* PalindromeNumber.cpp */; };
@@ -57,6 +58,8 @@
 		111D6670177D81C000AC9D85 /* SwapNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwapNode.h; sourceTree = "<group>"; };
 		113DD48D1787029C00D6623C /* LongestValidParentheses.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LongestValidParentheses.cpp; sourceTree = "<group>"; };
 		113DD48E1787029C00D6623C /* LongestValidParentheses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongestValidParentheses.h; sourceTree = "<group>"; };
+		113DD4911787E15E00D6623C /* SearchRSA.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SearchRSA.cpp; sourceTree = "<group>"; };
+		113DD4921787E15E00D6623C /* SearchRSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchRSA.h; sourceTree = "<group>"; };
 		114CD9AD1779D6AF009F86BB /* MergeKList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeKList.cpp; sourceTree = "<group>"; };
 		114CD9AE1779D6AF009F86BB /* MergeKList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeKList.h; sourceTree = "<group>"; };
 		1151DF4C17733FFF004DFA95 /* 3SumClosest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 3SumClosest.cpp; sourceTree = "<group>"; };
@@ -126,6 +129,15 @@
 				110891E41785A9F600615813 /* ArrayUtil.h */,
 			);
 			name = Util;
+			sourceTree = "<group>";
+		};
+		113DD4901787E14B00D6623C /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				113DD4911787E15E00D6623C /* SearchRSA.cpp */,
+				113DD4921787E15E00D6623C /* SearchRSA.h */,
+			);
+			name = Search;
 			sourceTree = "<group>";
 		};
 		11612A31174114AB00E3209E /* String */ = {
@@ -198,6 +210,7 @@
 		11CF6F38172571CE008D0992 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				113DD4901787E14B00D6623C /* Search */,
 				110891E21785A9DF00615813 /* Util */,
 				11C1C911177DE5FF00613D0E /* Array */,
 				11C1FF231776BC7C00A6F862 /* List */,
@@ -314,6 +327,7 @@
 				11F8702417846D400089A21C /* NextPermutation.cpp in Sources */,
 				110891E51785A9F600615813 /* ArrayUtil.cpp in Sources */,
 				113DD48F1787029C00D6623C /* LongestValidParentheses.cpp in Sources */,
+				113DD4931787E15E00D6623C /* SearchRSA.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
