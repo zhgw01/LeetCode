@@ -35,13 +35,14 @@
 #include "SearchRange.h"
 #include "SearchInsertPosition.h"
 #include "CombineSum.h"
+#include "CombineSumUnique.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(CombineSum);
+    REGISTER_CLASS(CombineSumUnique);
     DemoFactory::getInstance()->run();
     return 0;
 }
