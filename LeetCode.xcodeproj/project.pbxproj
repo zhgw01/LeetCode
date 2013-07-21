@@ -41,6 +41,7 @@
 		11CF6F4417257212008D0992 /* IRun.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11CF6F4217257212008D0992 /* IRun.cpp */; };
 		11CF6F4817257353008D0992 /* ReverseDigit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11CF6F4617257353008D0992 /* ReverseDigit.cpp */; };
 		11CF6F4B1727AA85008D0992 /* String2Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11CF6F491727AA85008D0992 /* String2Number.cpp */; };
+		11E966B0179B9CB500A18E23 /* WildCardMatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11E966AE179B9CB500A18E23 /* WildCardMatch.cpp */; };
 		11F42F8E1771EE6000CD5E7E /* 3Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11F42F8C1771EE6000CD5E7E /* 3Number.cpp */; };
 		11F8702417846D400089A21C /* NextPermutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11F8702217846D400089A21C /* NextPermutation.cpp */; };
 /* End PBXBuildFile section */
@@ -126,6 +127,8 @@
 		11CF6F4717257353008D0992 /* ReverseDigit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReverseDigit.h; sourceTree = "<group>"; };
 		11CF6F491727AA85008D0992 /* String2Number.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = String2Number.cpp; sourceTree = "<group>"; };
 		11CF6F4A1727AA85008D0992 /* String2Number.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = String2Number.h; sourceTree = "<group>"; };
+		11E966AE179B9CB500A18E23 /* WildCardMatch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WildCardMatch.cpp; sourceTree = "<group>"; };
+		11E966AF179B9CB500A18E23 /* WildCardMatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WildCardMatch.h; sourceTree = "<group>"; };
 		11F42F8C1771EE6000CD5E7E /* 3Number.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 3Number.cpp; sourceTree = "<group>"; };
 		11F42F8D1771EE6000CD5E7E /* 3Number.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 3Number.h; sourceTree = "<group>"; };
 		11F8702217846D400089A21C /* NextPermutation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NextPermutation.cpp; sourceTree = "<group>"; };
@@ -186,6 +189,8 @@
 				113DD48E1787029C00D6623C /* LongestValidParentheses.h */,
 				1121D7B3179AC6D000CED9D8 /* MultiplyString.cpp */,
 				1121D7B4179AC6D000CED9D8 /* MultiplyString.h */,
+				11E966AE179B9CB500A18E23 /* WildCardMatch.cpp */,
+				11E966AF179B9CB500A18E23 /* WildCardMatch.h */,
 			);
 			name = String;
 			sourceTree = "<group>";
@@ -370,6 +375,7 @@
 				1121D7AF179A69F500CED9D8 /* FindMissingValue.cpp in Sources */,
 				1121D7B2179A758500CED9D8 /* RainWater.cpp in Sources */,
 				1121D7B5179AC6D000CED9D8 /* MultiplyString.cpp in Sources */,
+				11E966B0179B9CB500A18E23 /* WildCardMatch.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

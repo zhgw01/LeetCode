@@ -39,13 +39,14 @@
 #include "FindMissingValue.h"
 #include "RainWater.h"
 #include "MultiplyString.h"
+#include "WildCardMatch.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(MultiplyString);
+    REGISTER_CLASS(WildCardMatch);
     DemoFactory::getInstance()->run();
     return 0;
 }
