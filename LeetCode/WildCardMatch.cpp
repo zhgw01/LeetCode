@@ -67,6 +67,7 @@ bool WildCardMatch::isMatch(const char *s, const char *p)
             case '*':
                 star = true;
                 // 暂时忽略‘*’
+                s = str;
                 p = pat;
                 do
                 {

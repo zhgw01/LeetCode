@@ -36,6 +36,7 @@
 		11C1FF261776BC8B00A6F862 /* NthNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11C1FF241776BC8B00A6F862 /* NthNode.cpp */; };
 		11C1FF291776C0EB00A6F862 /* ValidParentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11C1FF271776C0EB00A6F862 /* ValidParentheses.cpp */; };
 		11C1FF2C1776C47900A6F862 /* GenerateParentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11C1FF2A1776C47900A6F862 /* GenerateParentheses.cpp */; };
+		11CD5AAA179EC09000ECB7C2 /* JumpGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11CD5AA8179EC09000ECB7C2 /* JumpGame.cpp */; };
 		11CF6F3A172571CE008D0992 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11CF6F39172571CE008D0992 /* main.cpp */; };
 		11CF6F3C172571CE008D0992 /* LeetCode.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 11CF6F3B172571CE008D0992 /* LeetCode.1 */; };
 		11CF6F4417257212008D0992 /* IRun.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11CF6F4217257212008D0992 /* IRun.cpp */; };
@@ -118,6 +119,8 @@
 		11C1FF281776C0EB00A6F862 /* ValidParentheses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidParentheses.h; sourceTree = "<group>"; };
 		11C1FF2A1776C47900A6F862 /* GenerateParentheses.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GenerateParentheses.cpp; sourceTree = "<group>"; };
 		11C1FF2B1776C47900A6F862 /* GenerateParentheses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenerateParentheses.h; sourceTree = "<group>"; };
+		11CD5AA8179EC09000ECB7C2 /* JumpGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JumpGame.cpp; sourceTree = "<group>"; };
+		11CD5AA9179EC09000ECB7C2 /* JumpGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JumpGame.h; sourceTree = "<group>"; };
 		11CF6F36172571CE008D0992 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		11CF6F39172571CE008D0992 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		11CF6F3B172571CE008D0992 /* LeetCode.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LeetCode.1; sourceTree = "<group>"; };
@@ -223,6 +226,15 @@
 			name = List;
 			sourceTree = "<group>";
 		};
+		11CD5AA7179EC07A00ECB7C2 /* DP */ = {
+			isa = PBXGroup;
+			children = (
+				11CD5AA8179EC09000ECB7C2 /* JumpGame.cpp */,
+				11CD5AA9179EC09000ECB7C2 /* JumpGame.h */,
+			);
+			name = DP;
+			sourceTree = "<group>";
+		};
 		11CF6F2D172571CE008D0992 = {
 			isa = PBXGroup;
 			children = (
@@ -242,6 +254,7 @@
 		11CF6F38172571CE008D0992 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				11CD5AA7179EC07A00ECB7C2 /* DP */,
 				113DD4901787E14B00D6623C /* Search */,
 				110891E21785A9DF00615813 /* Util */,
 				11C1C911177DE5FF00613D0E /* Array */,
@@ -376,6 +389,7 @@
 				1121D7B2179A758500CED9D8 /* RainWater.cpp in Sources */,
 				1121D7B5179AC6D000CED9D8 /* MultiplyString.cpp in Sources */,
 				11E966B0179B9CB500A18E23 /* WildCardMatch.cpp in Sources */,
+				11CD5AAA179EC09000ECB7C2 /* JumpGame.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
