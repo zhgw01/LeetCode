@@ -31,6 +31,7 @@
 		11AF232E1783205200332F8A /* ConCatWords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11AF232C1783205100332F8A /* ConCatWords.cpp */; };
 		11B4B2F9174A777600EA2EF5 /* LCP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11B4B2F7174A777600EA2EF5 /* LCP.cpp */; };
 		11BC77BA17A00524009AE343 /* JumpGameDetermine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11BC77B817A00524009AE343 /* JumpGameDetermine.cpp */; };
+		11BC77BE17A00987009AE343 /* Permutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11BC77BC17A00987009AE343 /* Permutation.cpp */; };
 		11C1C914177DE62700613D0E /* RemoveDuplicate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11C1C912177DE62700613D0E /* RemoveDuplicate.cpp */; };
 		11C1C917177DE7A400613D0E /* RemoveElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11C1C915177DE7A400613D0E /* RemoveElement.cpp */; };
 		11C1C91A177DE96600613D0E /* StrStr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11C1C918177DE96600613D0E /* StrStr.cpp */; };
@@ -110,6 +111,8 @@
 		11B4B2F8174A777600EA2EF5 /* LCP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCP.h; sourceTree = "<group>"; };
 		11BC77B817A00524009AE343 /* JumpGameDetermine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JumpGameDetermine.cpp; sourceTree = "<group>"; };
 		11BC77B917A00524009AE343 /* JumpGameDetermine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JumpGameDetermine.h; sourceTree = "<group>"; };
+		11BC77BC17A00987009AE343 /* Permutation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Permutation.cpp; sourceTree = "<group>"; };
+		11BC77BD17A00987009AE343 /* Permutation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Permutation.h; sourceTree = "<group>"; };
 		11C1C912177DE62700613D0E /* RemoveDuplicate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveDuplicate.cpp; sourceTree = "<group>"; };
 		11C1C913177DE62700613D0E /* RemoveDuplicate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoveDuplicate.h; sourceTree = "<group>"; };
 		11C1C915177DE7A400613D0E /* RemoveElement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveElement.cpp; sourceTree = "<group>"; };
@@ -201,6 +204,15 @@
 			name = String;
 			sourceTree = "<group>";
 		};
+		11BC77BB17A00977009AE343 /* Recursive */ = {
+			isa = PBXGroup;
+			children = (
+				11BC77BC17A00987009AE343 /* Permutation.cpp */,
+				11BC77BD17A00987009AE343 /* Permutation.h */,
+			);
+			name = Recursive;
+			sourceTree = "<group>";
+		};
 		11C1C911177DE5FF00613D0E /* Array */ = {
 			isa = PBXGroup;
 			children = (
@@ -259,6 +271,7 @@
 		11CF6F38172571CE008D0992 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				11BC77BB17A00977009AE343 /* Recursive */,
 				11CD5AA7179EC07A00ECB7C2 /* Greedy&DP */,
 				113DD4901787E14B00D6623C /* Search */,
 				110891E21785A9DF00615813 /* Util */,
@@ -396,6 +409,7 @@
 				11E966B0179B9CB500A18E23 /* WildCardMatch.cpp in Sources */,
 				11CD5AAA179EC09000ECB7C2 /* JumpGame.cpp in Sources */,
 				11BC77BA17A00524009AE343 /* JumpGameDetermine.cpp in Sources */,
+				11BC77BE17A00987009AE343 /* Permutation.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
