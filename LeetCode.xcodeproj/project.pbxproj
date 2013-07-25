@@ -19,6 +19,7 @@
 		113DD49617881F7900D6623C /* SearchRange.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 113DD49417881F7900D6623C /* SearchRange.cpp */; };
 		113DD499178824BA00D6623C /* SearchInsertPosition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 113DD497178824BA00D6623C /* SearchInsertPosition.cpp */; };
 		114CD9AF1779D6AF009F86BB /* MergeKList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 114CD9AD1779D6AF009F86BB /* MergeKList.cpp */; };
+		114EC2C517A1658000C7E7C5 /* RotateImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 114EC2C317A1658000C7E7C5 /* RotateImage.cpp */; };
 		1151DF4E17733FFF004DFA95 /* 3SumClosest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1151DF4C17733FFF004DFA95 /* 3SumClosest.cpp */; };
 		11612A30174112EF00E3209E /* PalindromeNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11612A2E174112EF00E3209E /* PalindromeNumber.cpp */; };
 		11612A34174114D200E3209E /* RegularExpressionMatching.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11612A32174114D200E3209E /* RegularExpressionMatching.cpp */; };
@@ -88,6 +89,8 @@
 		113DD498178824BA00D6623C /* SearchInsertPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchInsertPosition.h; sourceTree = "<group>"; };
 		114CD9AD1779D6AF009F86BB /* MergeKList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeKList.cpp; sourceTree = "<group>"; };
 		114CD9AE1779D6AF009F86BB /* MergeKList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeKList.h; sourceTree = "<group>"; };
+		114EC2C317A1658000C7E7C5 /* RotateImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RotateImage.cpp; sourceTree = "<group>"; };
+		114EC2C417A1658000C7E7C5 /* RotateImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateImage.h; sourceTree = "<group>"; };
 		1151DF4C17733FFF004DFA95 /* 3SumClosest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 3SumClosest.cpp; sourceTree = "<group>"; };
 		1151DF4D17733FFF004DFA95 /* 3SumClosest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 3SumClosest.h; sourceTree = "<group>"; };
 		11612A2E174112EF00E3209E /* PalindromeNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PalindromeNumber.cpp; sourceTree = "<group>"; };
@@ -214,6 +217,8 @@
 				11BC77BD17A00987009AE343 /* Permutation.h */,
 				11BC77BF17A012D5009AE343 /* UniquePermuation.cpp */,
 				11BC77C017A012D5009AE343 /* UniquePermuation.h */,
+				114EC2C317A1658000C7E7C5 /* RotateImage.cpp */,
+				114EC2C417A1658000C7E7C5 /* RotateImage.h */,
 			);
 			name = Recursive;
 			sourceTree = "<group>";
@@ -416,6 +421,7 @@
 				11BC77BA17A00524009AE343 /* JumpGameDetermine.cpp in Sources */,
 				11BC77BE17A00987009AE343 /* Permutation.cpp in Sources */,
 				11BC77C117A012D5009AE343 /* UniquePermuation.cpp in Sources */,
+				114EC2C517A1658000C7E7C5 /* RotateImage.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
