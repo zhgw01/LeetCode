@@ -46,13 +46,14 @@
 #include "UniquePermuation.h"
 #include "RotateImage.h"
 #include "Anagram.h"
+#include "PowerN.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(Anagram);
+    REGISTER_CLASS(PowerN);
     DemoFactory::getInstance()->run();
     return 0;
 }
