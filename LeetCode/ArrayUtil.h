@@ -15,7 +15,18 @@ class ArrayUtil {
     
 public:
     
-    static std::vector<int> createFromArray(int a[], int n);
+    template<class T>
+    static std::vector<T> createFromArray(T a[], int n)
+    {
+        std::vector<T> result;
+        
+        for (int i = 0; i < n; ++i) {
+            result.push_back(a[i]);
+        }
+        
+        return result;
+
+    }
     
     static bool equalToArray(const std::vector<int>& v, int a[], int n);
 };

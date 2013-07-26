@@ -11,17 +11,6 @@
 using namespace std;
 
 
-vector<int> ArrayUtil::createFromArray(int *a, int n)
-{
-    vector<int> result;
-    
-    for (int i = 0; i < n; ++i) {
-        result.push_back(a[i]);
-    }
-    
-    return result;
-}
-
 bool ArrayUtil::equalToArray(const std::vector<int> &v, int *a, int n)
 {
     if (v.size() != n) {
