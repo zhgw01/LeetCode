@@ -51,13 +51,14 @@
 #include "NQueueII.h"
 #include "MaximumSubArray.h"
 #include "SpiralMatrix.h"
+#include "MergeInterval.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(SpiralMatrix);
+    REGISTER_CLASS(MergeInterval);
     DemoFactory::getInstance()->run();
     return 0;
 }
