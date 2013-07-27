@@ -18,6 +18,7 @@
 		1138277A17A2AD7400D52A90 /* PowerN.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1138277817A2AD7400D52A90 /* PowerN.cpp */; };
 		1138277D17A3683400D52A90 /* NQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1138277B17A3683400D52A90 /* NQueue.cpp */; };
 		1138278017A3C55100D52A90 /* NQueueII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1138277E17A3C55100D52A90 /* NQueueII.cpp */; };
+		1138278317A3E9AB00D52A90 /* MaximumSubArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1138278117A3E9AA00D52A90 /* MaximumSubArray.cpp */; };
 		113DD48F1787029C00D6623C /* LongestValidParentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 113DD48D1787029C00D6623C /* LongestValidParentheses.cpp */; };
 		113DD4931787E15E00D6623C /* SearchRSA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 113DD4911787E15E00D6623C /* SearchRSA.cpp */; };
 		113DD49617881F7900D6623C /* SearchRange.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 113DD49417881F7900D6623C /* SearchRange.cpp */; };
@@ -91,6 +92,8 @@
 		1138277C17A3683400D52A90 /* NQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NQueue.h; sourceTree = "<group>"; };
 		1138277E17A3C55100D52A90 /* NQueueII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NQueueII.cpp; sourceTree = "<group>"; };
 		1138277F17A3C55100D52A90 /* NQueueII.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NQueueII.h; sourceTree = "<group>"; };
+		1138278117A3E9AA00D52A90 /* MaximumSubArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaximumSubArray.cpp; sourceTree = "<group>"; };
+		1138278217A3E9AA00D52A90 /* MaximumSubArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaximumSubArray.h; sourceTree = "<group>"; };
 		113DD48D1787029C00D6623C /* LongestValidParentheses.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LongestValidParentheses.cpp; sourceTree = "<group>"; };
 		113DD48E1787029C00D6623C /* LongestValidParentheses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongestValidParentheses.h; sourceTree = "<group>"; };
 		113DD4911787E15E00D6623C /* SearchRSA.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SearchRSA.cpp; sourceTree = "<group>"; };
@@ -248,6 +251,8 @@
 				11C1C913177DE62700613D0E /* RemoveDuplicate.h */,
 				11C1C915177DE7A400613D0E /* RemoveElement.cpp */,
 				11C1C916177DE7A400613D0E /* RemoveElement.h */,
+				1138278117A3E9AA00D52A90 /* MaximumSubArray.cpp */,
+				1138278217A3E9AA00D52A90 /* MaximumSubArray.h */,
 			);
 			name = Array;
 			sourceTree = "<group>";
@@ -446,6 +451,7 @@
 				1138277A17A2AD7400D52A90 /* PowerN.cpp in Sources */,
 				1138277D17A3683400D52A90 /* NQueue.cpp in Sources */,
 				1138278017A3C55100D52A90 /* NQueueII.cpp in Sources */,
+				1138278317A3E9AB00D52A90 /* MaximumSubArray.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

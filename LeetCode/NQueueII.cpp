@@ -114,6 +114,7 @@ int NQueueII::totalNQueens(int n)
     return result;
 }
 
+/*
 bool check(int row, int* place)
 {
     for (int i = 0; i < row; ++i)
@@ -149,3 +150,5 @@ int totalNQueens2(int n) {
     placeQueens(0, n, count, place);
     return count;
 }
+ 
+ */
