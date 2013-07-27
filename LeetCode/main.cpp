@@ -48,13 +48,14 @@
 #include "Anagram.h"
 #include "PowerN.h"
 #include "NQueue.h"
+#include "NQueueII.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(NQueue);
+    REGISTER_CLASS(NQueueII);
     DemoFactory::getInstance()->run();
     return 0;
 }
