@@ -52,13 +52,14 @@
 #include "MaximumSubArray.h"
 #include "SpiralMatrix.h"
 #include "MergeInterval.h"
+#include "InsertInterval.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(MergeInterval);
+    REGISTER_CLASS(InsertInterval);
     DemoFactory::getInstance()->run();
     return 0;
 }
