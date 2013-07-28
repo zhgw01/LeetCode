@@ -24,6 +24,7 @@
 		1138278D17A4B0A800D52A90 /* InsertInterval.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1138278B17A4B0A800D52A90 /* InsertInterval.cpp */; };
 		1138279017A4E1FB00D52A90 /* LastWorldLength.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1138278E17A4E1FB00D52A90 /* LastWorldLength.cpp */; };
 		1138279317A4E54B00D52A90 /* KPermutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1138279117A4E54B00D52A90 /* KPermutation.cpp */; };
+		1138279617A4F3C600D52A90 /* RotateList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1138279417A4F3C600D52A90 /* RotateList.cpp */; };
 		113DD48F1787029C00D6623C /* LongestValidParentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 113DD48D1787029C00D6623C /* LongestValidParentheses.cpp */; };
 		113DD4931787E15E00D6623C /* SearchRSA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 113DD4911787E15E00D6623C /* SearchRSA.cpp */; };
 		113DD49617881F7900D6623C /* SearchRange.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 113DD49417881F7900D6623C /* SearchRange.cpp */; };
@@ -109,6 +110,8 @@
 		1138278F17A4E1FB00D52A90 /* LastWorldLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LastWorldLength.h; sourceTree = "<group>"; };
 		1138279117A4E54B00D52A90 /* KPermutation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KPermutation.cpp; sourceTree = "<group>"; };
 		1138279217A4E54B00D52A90 /* KPermutation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPermutation.h; sourceTree = "<group>"; };
+		1138279417A4F3C600D52A90 /* RotateList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RotateList.cpp; sourceTree = "<group>"; };
+		1138279517A4F3C600D52A90 /* RotateList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateList.h; sourceTree = "<group>"; };
 		113DD48D1787029C00D6623C /* LongestValidParentheses.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LongestValidParentheses.cpp; sourceTree = "<group>"; };
 		113DD48E1787029C00D6623C /* LongestValidParentheses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongestValidParentheses.h; sourceTree = "<group>"; };
 		113DD4911787E15E00D6623C /* SearchRSA.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SearchRSA.cpp; sourceTree = "<group>"; };
@@ -302,6 +305,8 @@
 				11A3983E177D8BF70048555B /* ReverseKNode.h */,
 				11A39840177D92DE0048555B /* ListNodeUtil.cpp */,
 				11A39841177D92DE0048555B /* ListNodeUtil.h */,
+				1138279417A4F3C600D52A90 /* RotateList.cpp */,
+				1138279517A4F3C600D52A90 /* RotateList.h */,
 			);
 			name = List;
 			sourceTree = "<group>";
@@ -490,6 +495,7 @@
 				1138278D17A4B0A800D52A90 /* InsertInterval.cpp in Sources */,
 				1138279017A4E1FB00D52A90 /* LastWorldLength.cpp in Sources */,
 				1138279317A4E54B00D52A90 /* KPermutation.cpp in Sources */,
+				1138279617A4F3C600D52A90 /* RotateList.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
