@@ -60,6 +60,7 @@
 		11E966B0179B9CB500A18E23 /* WildCardMatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11E966AE179B9CB500A18E23 /* WildCardMatch.cpp */; };
 		11F34F5F17A69020004BF835 /* UniquePath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11F34F5D17A69020004BF835 /* UniquePath.cpp */; };
 		11F34F6217A69890004BF835 /* UniquePathII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11F34F6017A69890004BF835 /* UniquePathII.cpp */; };
+		11F34F6517A69D65004BF835 /* MiniumPathSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11F34F6317A69D65004BF835 /* MiniumPathSum.cpp */; };
 		11F42F8E1771EE6000CD5E7E /* 3Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11F42F8C1771EE6000CD5E7E /* 3Number.cpp */; };
 		11F8702417846D400089A21C /* NextPermutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11F8702217846D400089A21C /* NextPermutation.cpp */; };
 /* End PBXBuildFile section */
@@ -183,6 +184,8 @@
 		11F34F5E17A69020004BF835 /* UniquePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniquePath.h; sourceTree = "<group>"; };
 		11F34F6017A69890004BF835 /* UniquePathII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UniquePathII.cpp; sourceTree = "<group>"; };
 		11F34F6117A69890004BF835 /* UniquePathII.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniquePathII.h; sourceTree = "<group>"; };
+		11F34F6317A69D65004BF835 /* MiniumPathSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MiniumPathSum.cpp; sourceTree = "<group>"; };
+		11F34F6417A69D65004BF835 /* MiniumPathSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiniumPathSum.h; sourceTree = "<group>"; };
 		11F42F8C1771EE6000CD5E7E /* 3Number.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 3Number.cpp; sourceTree = "<group>"; };
 		11F42F8D1771EE6000CD5E7E /* 3Number.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 3Number.h; sourceTree = "<group>"; };
 		11F8702217846D400089A21C /* NextPermutation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NextPermutation.cpp; sourceTree = "<group>"; };
@@ -328,6 +331,8 @@
 				11BC77B917A00524009AE343 /* JumpGameDetermine.h */,
 				11F34F6017A69890004BF835 /* UniquePathII.cpp */,
 				11F34F6117A69890004BF835 /* UniquePathII.h */,
+				11F34F6317A69D65004BF835 /* MiniumPathSum.cpp */,
+				11F34F6417A69D65004BF835 /* MiniumPathSum.h */,
 			);
 			name = "Greedy&DP";
 			sourceTree = "<group>";
@@ -516,6 +521,7 @@
 				1138279617A4F3C600D52A90 /* RotateList.cpp in Sources */,
 				11F34F5F17A69020004BF835 /* UniquePath.cpp in Sources */,
 				11F34F6217A69890004BF835 /* UniquePathII.cpp in Sources */,
+				11F34F6517A69D65004BF835 /* MiniumPathSum.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
