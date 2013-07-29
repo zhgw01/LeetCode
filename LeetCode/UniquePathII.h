@@ -18,6 +18,8 @@ public:
 
 private:
     void test1();
+    
+    int uniquePathsWithObstacles(std::vector<std::vector<int> > &obstacleGrid);
 
 };
 
