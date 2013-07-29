@@ -58,6 +58,8 @@
 		11CF6F4817257353008D0992 /* ReverseDigit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11CF6F4617257353008D0992 /* ReverseDigit.cpp */; };
 		11CF6F4B1727AA85008D0992 /* String2Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11CF6F491727AA85008D0992 /* String2Number.cpp */; };
 		11E966B0179B9CB500A18E23 /* WildCardMatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11E966AE179B9CB500A18E23 /* WildCardMatch.cpp */; };
+		11F34F5F17A69020004BF835 /* UniquePath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11F34F5D17A69020004BF835 /* UniquePath.cpp */; };
+		11F34F6217A69890004BF835 /* UniquePathII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11F34F6017A69890004BF835 /* UniquePathII.cpp */; };
 		11F42F8E1771EE6000CD5E7E /* 3Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11F42F8C1771EE6000CD5E7E /* 3Number.cpp */; };
 		11F8702417846D400089A21C /* NextPermutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11F8702217846D400089A21C /* NextPermutation.cpp */; };
 /* End PBXBuildFile section */
@@ -177,6 +179,10 @@
 		11CF6F4A1727AA85008D0992 /* String2Number.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = String2Number.h; sourceTree = "<group>"; };
 		11E966AE179B9CB500A18E23 /* WildCardMatch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WildCardMatch.cpp; sourceTree = "<group>"; };
 		11E966AF179B9CB500A18E23 /* WildCardMatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WildCardMatch.h; sourceTree = "<group>"; };
+		11F34F5D17A69020004BF835 /* UniquePath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UniquePath.cpp; sourceTree = "<group>"; };
+		11F34F5E17A69020004BF835 /* UniquePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniquePath.h; sourceTree = "<group>"; };
+		11F34F6017A69890004BF835 /* UniquePathII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UniquePathII.cpp; sourceTree = "<group>"; };
+		11F34F6117A69890004BF835 /* UniquePathII.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniquePathII.h; sourceTree = "<group>"; };
 		11F42F8C1771EE6000CD5E7E /* 3Number.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 3Number.cpp; sourceTree = "<group>"; };
 		11F42F8D1771EE6000CD5E7E /* 3Number.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 3Number.h; sourceTree = "<group>"; };
 		11F8702217846D400089A21C /* NextPermutation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NextPermutation.cpp; sourceTree = "<group>"; };
@@ -314,10 +320,14 @@
 		11CD5AA7179EC07A00ECB7C2 /* Greedy&DP */ = {
 			isa = PBXGroup;
 			children = (
+				11F34F5D17A69020004BF835 /* UniquePath.cpp */,
+				11F34F5E17A69020004BF835 /* UniquePath.h */,
 				11CD5AA8179EC09000ECB7C2 /* JumpGame.cpp */,
 				11CD5AA9179EC09000ECB7C2 /* JumpGame.h */,
 				11BC77B817A00524009AE343 /* JumpGameDetermine.cpp */,
 				11BC77B917A00524009AE343 /* JumpGameDetermine.h */,
+				11F34F6017A69890004BF835 /* UniquePathII.cpp */,
+				11F34F6117A69890004BF835 /* UniquePathII.h */,
 			);
 			name = "Greedy&DP";
 			sourceTree = "<group>";
@@ -341,6 +351,7 @@
 		11CF6F38172571CE008D0992 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				11F34F5C17A69010004BF835 /* Backtrack */,
 				1138278417A3EC4B00D52A90 /* Matrix */,
 				11BC77BB17A00977009AE343 /* Recursive */,
 				11CD5AA7179EC07A00ECB7C2 /* Greedy&DP */,
@@ -391,6 +402,13 @@
 				1138277917A2AD7400D52A90 /* PowerN.h */,
 			);
 			name = Number;
+			sourceTree = "<group>";
+		};
+		11F34F5C17A69010004BF835 /* Backtrack */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Backtrack;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -496,6 +514,8 @@
 				1138279017A4E1FB00D52A90 /* LastWorldLength.cpp in Sources */,
 				1138279317A4E54B00D52A90 /* KPermutation.cpp in Sources */,
 				1138279617A4F3C600D52A90 /* RotateList.cpp in Sources */,
+				11F34F5F17A69020004BF835 /* UniquePath.cpp in Sources */,
+				11F34F6217A69890004BF835 /* UniquePathII.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

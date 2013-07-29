@@ -56,13 +56,14 @@
 #include "LastWorldLength.h"
 #include "KPermutation.h"
 #include "RotateList.h"
+#include "UniquePath.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(RotateList);
+    REGISTER_CLASS(UniquePath);
     DemoFactory::getInstance()->run();
     return 0;
 }
