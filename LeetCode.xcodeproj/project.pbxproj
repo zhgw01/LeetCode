@@ -37,6 +37,7 @@
 		115F1AC417ACB2F700843356 /* Search2DMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 115F1AC217ACB2F700843356 /* Search2DMatrix.cpp */; };
 		115F1AC717AD32BB00843356 /* EditDistance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 115F1AC517AD32BB00843356 /* EditDistance.cpp */; };
 		115F1ACB17AD40AB00843356 /* SortColors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 115F1AC917AD40AB00843356 /* SortColors.cpp */; };
+		115F1ACE17AD42FA00843356 /* ClimbingStairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 115F1ACC17AD42FA00843356 /* ClimbingStairs.cpp */; };
 		11612A30174112EF00E3209E /* PalindromeNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11612A2E174112EF00E3209E /* PalindromeNumber.cpp */; };
 		11612A34174114D200E3209E /* RegularExpressionMatching.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11612A32174114D200E3209E /* RegularExpressionMatching.cpp */; };
 		11612A371743CB3A00E3209E /* Container.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11612A351743CB3A00E3209E /* Container.cpp */; };
@@ -144,6 +145,8 @@
 		115F1AC617AD32BB00843356 /* EditDistance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditDistance.h; sourceTree = "<group>"; };
 		115F1AC917AD40AB00843356 /* SortColors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortColors.cpp; sourceTree = "<group>"; };
 		115F1ACA17AD40AB00843356 /* SortColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortColors.h; sourceTree = "<group>"; };
+		115F1ACC17AD42FA00843356 /* ClimbingStairs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ClimbingStairs.cpp; sourceTree = "<group>"; };
+		115F1ACD17AD42FA00843356 /* ClimbingStairs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClimbingStairs.h; sourceTree = "<group>"; };
 		11612A2E174112EF00E3209E /* PalindromeNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PalindromeNumber.cpp; sourceTree = "<group>"; };
 		11612A2F174112EF00E3209E /* PalindromeNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PalindromeNumber.h; sourceTree = "<group>"; };
 		11612A32174114D200E3209E /* RegularExpressionMatching.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RegularExpressionMatching.cpp; sourceTree = "<group>"; };
@@ -372,6 +375,8 @@
 				11F34F6417A69D65004BF835 /* MiniumPathSum.h */,
 				115F1AC517AD32BB00843356 /* EditDistance.cpp */,
 				115F1AC617AD32BB00843356 /* EditDistance.h */,
+				115F1ACC17AD42FA00843356 /* ClimbingStairs.cpp */,
+				115F1ACD17AD42FA00843356 /* ClimbingStairs.h */,
 			);
 			name = "Greedy&DP";
 			sourceTree = "<group>";
@@ -568,6 +573,7 @@
 				115F1AC417ACB2F700843356 /* Search2DMatrix.cpp in Sources */,
 				115F1AC717AD32BB00843356 /* EditDistance.cpp in Sources */,
 				115F1ACB17AD40AB00843356 /* SortColors.cpp in Sources */,
+				115F1ACE17AD42FA00843356 /* ClimbingStairs.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

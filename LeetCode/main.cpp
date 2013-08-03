@@ -64,13 +64,14 @@
 #include "Search2DMatrix.h"
 #include "EditDistance.h"
 #include "SortColors.h"
+#include "ClimbingStairs.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(SortColors);
+    REGISTER_CLASS(ClimbingStairs);
     DemoFactory::getInstance()->run();
     return 0;
 }
