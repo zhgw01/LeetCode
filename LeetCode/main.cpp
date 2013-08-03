@@ -62,13 +62,14 @@
 #include "MergeTwoSortedList.h"
 #include "SimplifyPath.h"
 #include "Search2DMatrix.h"
+#include "EditDistance.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(Search2DMatrix);
+    REGISTER_CLASS(EditDistance);
     DemoFactory::getInstance()->run();
     return 0;
 }
