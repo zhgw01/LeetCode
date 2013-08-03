@@ -60,13 +60,14 @@
 #include "UniquePathII.h"
 #include "MiniumPathSum.h"
 #include "MergeTwoSortedList.h"
+#include "SimplifyPath.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(MergeTwoSortedList);
+    REGISTER_CLASS(SimplifyPath);
     DemoFactory::getInstance()->run();
     return 0;
 }

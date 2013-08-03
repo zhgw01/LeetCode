@@ -33,6 +33,7 @@
 		114EC2C517A1658000C7E7C5 /* RotateImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 114EC2C317A1658000C7E7C5 /* RotateImage.cpp */; };
 		1151DF4E17733FFF004DFA95 /* 3SumClosest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1151DF4C17733FFF004DFA95 /* 3SumClosest.cpp */; };
 		115F1ABD17ACA5E900843356 /* MergeTwoSortedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 115F1ABB17ACA5E900843356 /* MergeTwoSortedList.cpp */; };
+		115F1AC117ACAC1E00843356 /* SimplifyPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 115F1ABF17ACAC1E00843356 /* SimplifyPath.cpp */; };
 		11612A30174112EF00E3209E /* PalindromeNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11612A2E174112EF00E3209E /* PalindromeNumber.cpp */; };
 		11612A34174114D200E3209E /* RegularExpressionMatching.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11612A32174114D200E3209E /* RegularExpressionMatching.cpp */; };
 		11612A371743CB3A00E3209E /* Container.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11612A351743CB3A00E3209E /* Container.cpp */; };
@@ -132,6 +133,8 @@
 		1151DF4D17733FFF004DFA95 /* 3SumClosest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 3SumClosest.h; sourceTree = "<group>"; };
 		115F1ABB17ACA5E900843356 /* MergeTwoSortedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeTwoSortedList.cpp; sourceTree = "<group>"; };
 		115F1ABC17ACA5E900843356 /* MergeTwoSortedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeTwoSortedList.h; sourceTree = "<group>"; };
+		115F1ABF17ACAC1E00843356 /* SimplifyPath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimplifyPath.cpp; sourceTree = "<group>"; };
+		115F1AC017ACAC1E00843356 /* SimplifyPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplifyPath.h; sourceTree = "<group>"; };
 		11612A2E174112EF00E3209E /* PalindromeNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PalindromeNumber.cpp; sourceTree = "<group>"; };
 		11612A2F174112EF00E3209E /* PalindromeNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PalindromeNumber.h; sourceTree = "<group>"; };
 		11612A32174114D200E3209E /* RegularExpressionMatching.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RegularExpressionMatching.cpp; sourceTree = "<group>"; };
@@ -235,6 +238,15 @@
 				113DD498178824BA00D6623C /* SearchInsertPosition.h */,
 			);
 			name = Search;
+			sourceTree = "<group>";
+		};
+		115F1ABE17ACABEF00843356 /* Unknown */ = {
+			isa = PBXGroup;
+			children = (
+				115F1ABF17ACAC1E00843356 /* SimplifyPath.cpp */,
+				115F1AC017ACAC1E00843356 /* SimplifyPath.h */,
+			);
+			name = Unknown;
 			sourceTree = "<group>";
 		};
 		11612A31174114AB00E3209E /* String */ = {
@@ -361,6 +373,7 @@
 		11CF6F38172571CE008D0992 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				115F1ABE17ACABEF00843356 /* Unknown */,
 				11F34F5C17A69010004BF835 /* Backtrack */,
 				1138278417A3EC4B00D52A90 /* Matrix */,
 				11BC77BB17A00977009AE343 /* Recursive */,
@@ -528,6 +541,7 @@
 				11F34F6217A69890004BF835 /* UniquePathII.cpp in Sources */,
 				11F34F6517A69D65004BF835 /* MiniumPathSum.cpp in Sources */,
 				115F1ABD17ACA5E900843356 /* MergeTwoSortedList.cpp in Sources */,
+				115F1AC117ACAC1E00843356 /* SimplifyPath.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
