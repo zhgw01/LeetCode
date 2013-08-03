@@ -34,6 +34,7 @@
 		1151DF4E17733FFF004DFA95 /* 3SumClosest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1151DF4C17733FFF004DFA95 /* 3SumClosest.cpp */; };
 		115F1ABD17ACA5E900843356 /* MergeTwoSortedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 115F1ABB17ACA5E900843356 /* MergeTwoSortedList.cpp */; };
 		115F1AC117ACAC1E00843356 /* SimplifyPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 115F1ABF17ACAC1E00843356 /* SimplifyPath.cpp */; };
+		115F1AC417ACB2F700843356 /* Search2DMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 115F1AC217ACB2F700843356 /* Search2DMatrix.cpp */; };
 		11612A30174112EF00E3209E /* PalindromeNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11612A2E174112EF00E3209E /* PalindromeNumber.cpp */; };
 		11612A34174114D200E3209E /* RegularExpressionMatching.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11612A32174114D200E3209E /* RegularExpressionMatching.cpp */; };
 		11612A371743CB3A00E3209E /* Container.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11612A351743CB3A00E3209E /* Container.cpp */; };
@@ -135,6 +136,8 @@
 		115F1ABC17ACA5E900843356 /* MergeTwoSortedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeTwoSortedList.h; sourceTree = "<group>"; };
 		115F1ABF17ACAC1E00843356 /* SimplifyPath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimplifyPath.cpp; sourceTree = "<group>"; };
 		115F1AC017ACAC1E00843356 /* SimplifyPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplifyPath.h; sourceTree = "<group>"; };
+		115F1AC217ACB2F700843356 /* Search2DMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Search2DMatrix.cpp; sourceTree = "<group>"; };
+		115F1AC317ACB2F700843356 /* Search2DMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Search2DMatrix.h; sourceTree = "<group>"; };
 		11612A2E174112EF00E3209E /* PalindromeNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PalindromeNumber.cpp; sourceTree = "<group>"; };
 		11612A2F174112EF00E3209E /* PalindromeNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PalindromeNumber.h; sourceTree = "<group>"; };
 		11612A32174114D200E3209E /* RegularExpressionMatching.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RegularExpressionMatching.cpp; sourceTree = "<group>"; };
@@ -223,6 +226,8 @@
 			children = (
 				1138278517A3EC5800D52A90 /* SpiralMatrix.cpp */,
 				1138278617A3EC5800D52A90 /* SpiralMatrix.h */,
+				115F1AC217ACB2F700843356 /* Search2DMatrix.cpp */,
+				115F1AC317ACB2F700843356 /* Search2DMatrix.h */,
 			);
 			name = Matrix;
 			sourceTree = "<group>";
@@ -542,6 +547,7 @@
 				11F34F6517A69D65004BF835 /* MiniumPathSum.cpp in Sources */,
 				115F1ABD17ACA5E900843356 /* MergeTwoSortedList.cpp in Sources */,
 				115F1AC117ACAC1E00843356 /* SimplifyPath.cpp in Sources */,
+				115F1AC417ACB2F700843356 /* Search2DMatrix.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

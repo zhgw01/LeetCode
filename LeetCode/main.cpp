@@ -61,13 +61,14 @@
 #include "MiniumPathSum.h"
 #include "MergeTwoSortedList.h"
 #include "SimplifyPath.h"
+#include "Search2DMatrix.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(SimplifyPath);
+    REGISTER_CLASS(Search2DMatrix);
     DemoFactory::getInstance()->run();
     return 0;
 }
