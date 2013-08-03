@@ -63,13 +63,14 @@
 #include "SimplifyPath.h"
 #include "Search2DMatrix.h"
 #include "EditDistance.h"
+#include "SortColors.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(EditDistance);
+    REGISTER_CLASS(SortColors);
     DemoFactory::getInstance()->run();
     return 0;
 }
