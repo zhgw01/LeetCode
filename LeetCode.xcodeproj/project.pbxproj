@@ -38,6 +38,7 @@
 		115F1AC717AD32BB00843356 /* EditDistance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 115F1AC517AD32BB00843356 /* EditDistance.cpp */; };
 		115F1ACB17AD40AB00843356 /* SortColors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 115F1AC917AD40AB00843356 /* SortColors.cpp */; };
 		115F1ACE17AD42FA00843356 /* ClimbingStairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 115F1ACC17AD42FA00843356 /* ClimbingStairs.cpp */; };
+		115F1AD217ADF31800843356 /* MiniumWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 115F1AD017ADF31800843356 /* MiniumWindow.cpp */; };
 		11612A30174112EF00E3209E /* PalindromeNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11612A2E174112EF00E3209E /* PalindromeNumber.cpp */; };
 		11612A34174114D200E3209E /* RegularExpressionMatching.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11612A32174114D200E3209E /* RegularExpressionMatching.cpp */; };
 		11612A371743CB3A00E3209E /* Container.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11612A351743CB3A00E3209E /* Container.cpp */; };
@@ -147,6 +148,8 @@
 		115F1ACA17AD40AB00843356 /* SortColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortColors.h; sourceTree = "<group>"; };
 		115F1ACC17AD42FA00843356 /* ClimbingStairs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ClimbingStairs.cpp; sourceTree = "<group>"; };
 		115F1ACD17AD42FA00843356 /* ClimbingStairs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClimbingStairs.h; sourceTree = "<group>"; };
+		115F1AD017ADF31800843356 /* MiniumWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MiniumWindow.cpp; sourceTree = "<group>"; };
+		115F1AD117ADF31800843356 /* MiniumWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiniumWindow.h; sourceTree = "<group>"; };
 		11612A2E174112EF00E3209E /* PalindromeNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PalindromeNumber.cpp; sourceTree = "<group>"; };
 		11612A2F174112EF00E3209E /* PalindromeNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PalindromeNumber.h; sourceTree = "<group>"; };
 		11612A32174114D200E3209E /* RegularExpressionMatching.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RegularExpressionMatching.cpp; sourceTree = "<group>"; };
@@ -270,6 +273,15 @@
 				115F1ACA17AD40AB00843356 /* SortColors.h */,
 			);
 			name = Sort;
+			sourceTree = "<group>";
+		};
+		115F1ACF17ADF2FD00843356 /* Hash */ = {
+			isa = PBXGroup;
+			children = (
+				115F1AD017ADF31800843356 /* MiniumWindow.cpp */,
+				115F1AD117ADF31800843356 /* MiniumWindow.h */,
+			);
+			name = Hash;
 			sourceTree = "<group>";
 		};
 		11612A31174114AB00E3209E /* String */ = {
@@ -400,6 +412,7 @@
 		11CF6F38172571CE008D0992 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				115F1ACF17ADF2FD00843356 /* Hash */,
 				115F1AC817AD409A00843356 /* Sort */,
 				115F1ABE17ACABEF00843356 /* Unknown */,
 				11F34F5C17A69010004BF835 /* Backtrack */,
@@ -574,6 +587,7 @@
 				115F1AC717AD32BB00843356 /* EditDistance.cpp in Sources */,
 				115F1ACB17AD40AB00843356 /* SortColors.cpp in Sources */,
 				115F1ACE17AD42FA00843356 /* ClimbingStairs.cpp in Sources */,
+				115F1AD217ADF31800843356 /* MiniumWindow.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

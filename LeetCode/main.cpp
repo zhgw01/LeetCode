@@ -65,13 +65,14 @@
 #include "EditDistance.h"
 #include "SortColors.h"
 #include "ClimbingStairs.h"
+#include "MiniumWindow.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(ClimbingStairs);
+    REGISTER_CLASS(MiniumWindow);
     DemoFactory::getInstance()->run();
     return 0;
 }
