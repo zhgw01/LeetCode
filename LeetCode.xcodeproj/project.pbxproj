@@ -64,6 +64,8 @@
 		11CF6F4417257212008D0992 /* IRun.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11CF6F4217257212008D0992 /* IRun.cpp */; };
 		11CF6F4817257353008D0992 /* ReverseDigit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11CF6F4617257353008D0992 /* ReverseDigit.cpp */; };
 		11CF6F4B1727AA85008D0992 /* String2Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11CF6F491727AA85008D0992 /* String2Number.cpp */; };
+		11D7D0AB17B604DE00AFADF1 /* InorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11D7D0A917B604DE00AFADF1 /* InorderTraversal.cpp */; };
+		11D7D0AE17B6051500AFADF1 /* Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11D7D0AC17B6051500AFADF1 /* Tree.cpp */; };
 		11E966B0179B9CB500A18E23 /* WildCardMatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11E966AE179B9CB500A18E23 /* WildCardMatch.cpp */; };
 		11F34F5F17A69020004BF835 /* UniquePath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11F34F5D17A69020004BF835 /* UniquePath.cpp */; };
 		11F34F6217A69890004BF835 /* UniquePathII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11F34F6017A69890004BF835 /* UniquePathII.cpp */; };
@@ -199,6 +201,10 @@
 		11CF6F4717257353008D0992 /* ReverseDigit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReverseDigit.h; sourceTree = "<group>"; };
 		11CF6F491727AA85008D0992 /* String2Number.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = String2Number.cpp; sourceTree = "<group>"; };
 		11CF6F4A1727AA85008D0992 /* String2Number.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = String2Number.h; sourceTree = "<group>"; };
+		11D7D0A917B604DE00AFADF1 /* InorderTraversal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InorderTraversal.cpp; sourceTree = "<group>"; };
+		11D7D0AA17B604DE00AFADF1 /* InorderTraversal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InorderTraversal.h; sourceTree = "<group>"; };
+		11D7D0AC17B6051500AFADF1 /* Tree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tree.cpp; sourceTree = "<group>"; };
+		11D7D0AD17B6051500AFADF1 /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
 		11E966AE179B9CB500A18E23 /* WildCardMatch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WildCardMatch.cpp; sourceTree = "<group>"; };
 		11E966AF179B9CB500A18E23 /* WildCardMatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WildCardMatch.h; sourceTree = "<group>"; };
 		11F34F5D17A69020004BF835 /* UniquePath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UniquePath.cpp; sourceTree = "<group>"; };
@@ -412,6 +418,7 @@
 		11CF6F38172571CE008D0992 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				11D7D0A817B604AE00AFADF1 /* Tree */,
 				115F1ACF17ADF2FD00843356 /* Hash */,
 				115F1AC817AD409A00843356 /* Sort */,
 				115F1ABE17ACABEF00843356 /* Unknown */,
@@ -466,6 +473,17 @@
 				1138277917A2AD7400D52A90 /* PowerN.h */,
 			);
 			name = Number;
+			sourceTree = "<group>";
+		};
+		11D7D0A817B604AE00AFADF1 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				11D7D0A917B604DE00AFADF1 /* InorderTraversal.cpp */,
+				11D7D0AA17B604DE00AFADF1 /* InorderTraversal.h */,
+				11D7D0AC17B6051500AFADF1 /* Tree.cpp */,
+				11D7D0AD17B6051500AFADF1 /* Tree.h */,
+			);
+			name = Tree;
 			sourceTree = "<group>";
 		};
 		11F34F5C17A69010004BF835 /* Backtrack */ = {
@@ -588,6 +606,8 @@
 				115F1ACB17AD40AB00843356 /* SortColors.cpp in Sources */,
 				115F1ACE17AD42FA00843356 /* ClimbingStairs.cpp in Sources */,
 				115F1AD217ADF31800843356 /* MiniumWindow.cpp in Sources */,
+				11D7D0AB17B604DE00AFADF1 /* InorderTraversal.cpp in Sources */,
+				11D7D0AE17B6051500AFADF1 /* Tree.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

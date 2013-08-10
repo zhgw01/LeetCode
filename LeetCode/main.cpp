@@ -66,13 +66,14 @@
 #include "SortColors.h"
 #include "ClimbingStairs.h"
 #include "MiniumWindow.h"
+#include "InorderTraversal.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(MiniumWindow);
+    REGISTER_CLASS(InorderTraversal);
     DemoFactory::getInstance()->run();
     return 0;
 }
