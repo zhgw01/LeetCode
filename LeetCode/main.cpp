@@ -67,13 +67,14 @@
 #include "ClimbingStairs.h"
 #include "MiniumWindow.h"
 #include "InorderTraversal.h"
+#include "BuildPreOrder.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(InorderTraversal);
+    REGISTER_CLASS(BuildPreOrder);
     DemoFactory::getInstance()->run();
     return 0;
 }
