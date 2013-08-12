@@ -68,13 +68,14 @@
 #include "MiniumWindow.h"
 #include "InorderTraversal.h"
 #include "BuildPreOrder.h"
+#include "UniqueBST.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(BuildPreOrder);
+    REGISTER_CLASS(UniqueBST);
     DemoFactory::getInstance()->run();
     return 0;
 }
