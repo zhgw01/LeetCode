@@ -17,7 +17,7 @@ class InorderTraversal : public IRun
 public:
     virtual void run();
 
-private:
+public:
     void test1();
 
     std::vector<int> inorderTraversal(TreeNode *root);
