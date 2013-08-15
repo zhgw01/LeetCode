@@ -72,13 +72,14 @@
 #include "ValidateBST.h"
 #include "RecoverBST.h"
 #include "SameTree.h"
+#include "SymmetricTree.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(SameTree);
+    REGISTER_CLASS(SymmetricTree);
     DemoFactory::getInstance()->run();
     return 0;
 }

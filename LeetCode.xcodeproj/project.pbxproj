@@ -56,6 +56,7 @@
 		11BFE0AD17BBC14F00DDDB85 /* ValidateBST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11BFE0AB17BBC14F00DDDB85 /* ValidateBST.cpp */; };
 		11BFE0B017BBC9A400DDDB85 /* RecoverBST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11BFE0AE17BBC9A400DDDB85 /* RecoverBST.cpp */; };
 		11BFE0B317BD117500DDDB85 /* SameTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11BFE0B117BD117500DDDB85 /* SameTree.cpp */; };
+		11BFE0B617BD134D00DDDB85 /* SymmetricTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11BFE0B417BD134D00DDDB85 /* SymmetricTree.cpp */; };
 		11C0FDE817B929B800BC59C1 /* UniqueBST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11C0FDE617B929B800BC59C1 /* UniqueBST.cpp */; };
 		11C1C914177DE62700613D0E /* RemoveDuplicate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11C1C912177DE62700613D0E /* RemoveDuplicate.cpp */; };
 		11C1C917177DE7A400613D0E /* RemoveElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11C1C915177DE7A400613D0E /* RemoveElement.cpp */; };
@@ -191,6 +192,8 @@
 		11BFE0AF17BBC9A400DDDB85 /* RecoverBST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecoverBST.h; sourceTree = "<group>"; };
 		11BFE0B117BD117500DDDB85 /* SameTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SameTree.cpp; sourceTree = "<group>"; };
 		11BFE0B217BD117500DDDB85 /* SameTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SameTree.h; sourceTree = "<group>"; };
+		11BFE0B417BD134D00DDDB85 /* SymmetricTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SymmetricTree.cpp; sourceTree = "<group>"; };
+		11BFE0B517BD134D00DDDB85 /* SymmetricTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SymmetricTree.h; sourceTree = "<group>"; };
 		11C0FDE617B929B800BC59C1 /* UniqueBST.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UniqueBST.cpp; sourceTree = "<group>"; };
 		11C0FDE717B929B800BC59C1 /* UniqueBST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniqueBST.h; sourceTree = "<group>"; };
 		11C1C912177DE62700613D0E /* RemoveDuplicate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveDuplicate.cpp; sourceTree = "<group>"; };
@@ -507,6 +510,8 @@
 				11BFE0AF17BBC9A400DDDB85 /* RecoverBST.h */,
 				11BFE0B117BD117500DDDB85 /* SameTree.cpp */,
 				11BFE0B217BD117500DDDB85 /* SameTree.h */,
+				11BFE0B417BD134D00DDDB85 /* SymmetricTree.cpp */,
+				11BFE0B517BD134D00DDDB85 /* SymmetricTree.h */,
 			);
 			name = Tree;
 			sourceTree = "<group>";
@@ -638,6 +643,7 @@
 				11BFE0AD17BBC14F00DDDB85 /* ValidateBST.cpp in Sources */,
 				11BFE0B017BBC9A400DDDB85 /* RecoverBST.cpp in Sources */,
 				11BFE0B317BD117500DDDB85 /* SameTree.cpp in Sources */,
+				11BFE0B617BD134D00DDDB85 /* SymmetricTree.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
