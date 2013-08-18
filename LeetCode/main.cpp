@@ -73,13 +73,14 @@
 #include "RecoverBST.h"
 #include "SameTree.h"
 #include "SymmetricTree.h"
+#include "LevelTraversal.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(SymmetricTree);
+    REGISTER_CLASS(LevelTraversal);
     DemoFactory::getInstance()->run();
     return 0;
 }

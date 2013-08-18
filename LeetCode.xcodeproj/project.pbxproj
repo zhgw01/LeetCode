@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		110891E51785A9F600615813 /* ArrayUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 110891E31785A9F600615813 /* ArrayUtil.cpp */; };
 		1109501817B740B600380774 /* BuildPreOrder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1109501617B740B600380774 /* BuildPreOrder.cpp */; };
+		110A656117C07C2F005BFEDA /* LevelTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 110A655F17C07C2F005BFEDA /* LevelTraversal.cpp */; };
 		111D6671177D81C000AC9D85 /* SwapNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 111D666F177D81C000AC9D85 /* SwapNode.cpp */; };
 		1121D7A91799810E00CED9D8 /* CombineSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1121D7A71799810E00CED9D8 /* CombineSum.cpp */; };
 		1121D7AC179A649300CED9D8 /* CombineSumUnique.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1121D7AA179A649300CED9D8 /* CombineSumUnique.cpp */; };
@@ -98,6 +99,8 @@
 		110891E41785A9F600615813 /* ArrayUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayUtil.h; sourceTree = "<group>"; };
 		1109501617B740B600380774 /* BuildPreOrder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BuildPreOrder.cpp; sourceTree = "<group>"; };
 		1109501717B740B600380774 /* BuildPreOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildPreOrder.h; sourceTree = "<group>"; };
+		110A655F17C07C2F005BFEDA /* LevelTraversal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LevelTraversal.cpp; sourceTree = "<group>"; };
+		110A656017C07C2F005BFEDA /* LevelTraversal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelTraversal.h; sourceTree = "<group>"; };
 		111D666F177D81C000AC9D85 /* SwapNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SwapNode.cpp; sourceTree = "<group>"; };
 		111D6670177D81C000AC9D85 /* SwapNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwapNode.h; sourceTree = "<group>"; };
 		1121D7A71799810E00CED9D8 /* CombineSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CombineSum.cpp; sourceTree = "<group>"; };
@@ -512,6 +515,8 @@
 				11BFE0B217BD117500DDDB85 /* SameTree.h */,
 				11BFE0B417BD134D00DDDB85 /* SymmetricTree.cpp */,
 				11BFE0B517BD134D00DDDB85 /* SymmetricTree.h */,
+				110A655F17C07C2F005BFEDA /* LevelTraversal.cpp */,
+				110A656017C07C2F005BFEDA /* LevelTraversal.h */,
 			);
 			name = Tree;
 			sourceTree = "<group>";
@@ -644,6 +649,7 @@
 				11BFE0B017BBC9A400DDDB85 /* RecoverBST.cpp in Sources */,
 				11BFE0B317BD117500DDDB85 /* SameTree.cpp in Sources */,
 				11BFE0B617BD134D00DDDB85 /* SymmetricTree.cpp in Sources */,
+				110A656117C07C2F005BFEDA /* LevelTraversal.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
