@@ -84,6 +84,7 @@
 		11F34F6517A69D65004BF835 /* MiniumPathSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11F34F6317A69D65004BF835 /* MiniumPathSum.cpp */; };
 		11F42F8E1771EE6000CD5E7E /* 3Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11F42F8C1771EE6000CD5E7E /* 3Number.cpp */; };
 		11F70B7C17C8AC9500872A66 /* SortedList2BST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11F70B7A17C8AC9500872A66 /* SortedList2BST.cpp */; };
+		11F70B7F17C8B16A00872A66 /* FlattenBST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11F70B7D17C8B16A00872A66 /* FlattenBST.cpp */; };
 		11F8702417846D400089A21C /* NextPermutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11F8702217846D400089A21C /* NextPermutation.cpp */; };
 /* End PBXBuildFile section */
 
@@ -254,6 +255,8 @@
 		11F42F8D1771EE6000CD5E7E /* 3Number.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 3Number.h; sourceTree = "<group>"; };
 		11F70B7A17C8AC9500872A66 /* SortedList2BST.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortedList2BST.cpp; sourceTree = "<group>"; };
 		11F70B7B17C8AC9500872A66 /* SortedList2BST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortedList2BST.h; sourceTree = "<group>"; };
+		11F70B7D17C8B16A00872A66 /* FlattenBST.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FlattenBST.cpp; sourceTree = "<group>"; };
+		11F70B7E17C8B16A00872A66 /* FlattenBST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlattenBST.h; sourceTree = "<group>"; };
 		11F8702217846D400089A21C /* NextPermutation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NextPermutation.cpp; sourceTree = "<group>"; };
 		11F8702317846D400089A21C /* NextPermutation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextPermutation.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -547,6 +550,8 @@
 				1128AF1917C88AC6001136D8 /* Array2BST.h */,
 				11F70B7A17C8AC9500872A66 /* SortedList2BST.cpp */,
 				11F70B7B17C8AC9500872A66 /* SortedList2BST.h */,
+				11F70B7D17C8B16A00872A66 /* FlattenBST.cpp */,
+				11F70B7E17C8B16A00872A66 /* FlattenBST.h */,
 			);
 			name = Tree;
 			sourceTree = "<group>";
@@ -686,6 +691,7 @@
 				1128AF1717C880E7001136D8 /* MinimumDepth.cpp in Sources */,
 				1128AF1A17C88AC6001136D8 /* Array2BST.cpp in Sources */,
 				11F70B7C17C8AC9500872A66 /* SortedList2BST.cpp in Sources */,
+				11F70B7F17C8B16A00872A66 /* FlattenBST.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
