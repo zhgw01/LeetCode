@@ -76,13 +76,14 @@
 #include "LevelTraversal.h"
 #include "ZigZagTraversal.h"
 #include "MaximumDepth.h"
+#include "BalancedTree.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(MaximumDepth);
+    REGISTER_CLASS(BalancedTree);
     DemoFactory::getInstance()->run();
     return 0;
 }

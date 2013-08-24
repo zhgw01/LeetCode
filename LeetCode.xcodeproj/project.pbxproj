@@ -18,6 +18,7 @@
 		1121D7AF179A69F500CED9D8 /* FindMissingValue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1121D7AD179A69F500CED9D8 /* FindMissingValue.cpp */; };
 		1121D7B2179A758500CED9D8 /* RainWater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1121D7B0179A758500CED9D8 /* RainWater.cpp */; };
 		1121D7B5179AC6D000CED9D8 /* MultiplyString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1121D7B3179AC6D000CED9D8 /* MultiplyString.cpp */; };
+		1128AF1417C87B89001136D8 /* BalancedTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1128AF1217C87B89001136D8 /* BalancedTree.cpp */; };
 		1138277717A2A5E600D52A90 /* Anagram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1138277517A2A5E600D52A90 /* Anagram.cpp */; };
 		1138277A17A2AD7400D52A90 /* PowerN.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1138277817A2AD7400D52A90 /* PowerN.cpp */; };
 		1138277D17A3683400D52A90 /* NQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1138277B17A3683400D52A90 /* NQueue.cpp */; };
@@ -119,6 +120,8 @@
 		1121D7B1179A758500CED9D8 /* RainWater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RainWater.h; sourceTree = "<group>"; };
 		1121D7B3179AC6D000CED9D8 /* MultiplyString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MultiplyString.cpp; sourceTree = "<group>"; };
 		1121D7B4179AC6D000CED9D8 /* MultiplyString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiplyString.h; sourceTree = "<group>"; };
+		1128AF1217C87B89001136D8 /* BalancedTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BalancedTree.cpp; sourceTree = "<group>"; };
+		1128AF1317C87B89001136D8 /* BalancedTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BalancedTree.h; sourceTree = "<group>"; };
 		1138277517A2A5E600D52A90 /* Anagram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Anagram.cpp; sourceTree = "<group>"; };
 		1138277617A2A5E600D52A90 /* Anagram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Anagram.h; sourceTree = "<group>"; };
 		1138277817A2AD7400D52A90 /* PowerN.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PowerN.cpp; sourceTree = "<group>"; };
@@ -527,6 +530,8 @@
 				110A656317C08131005BFEDA /* ZigZagTraversal.h */,
 				110A656517C08A8D005BFEDA /* MaximumDepth.cpp */,
 				110A656617C08A8D005BFEDA /* MaximumDepth.h */,
+				1128AF1217C87B89001136D8 /* BalancedTree.cpp */,
+				1128AF1317C87B89001136D8 /* BalancedTree.h */,
 			);
 			name = Tree;
 			sourceTree = "<group>";
@@ -662,6 +667,7 @@
 				110A656117C07C2F005BFEDA /* LevelTraversal.cpp in Sources */,
 				110A656417C08131005BFEDA /* ZigZagTraversal.cpp in Sources */,
 				110A656717C08A8D005BFEDA /* MaximumDepth.cpp in Sources */,
+				1128AF1417C87B89001136D8 /* BalancedTree.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
