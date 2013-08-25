@@ -83,13 +83,14 @@
 #include "FlattenBST.h"
 #include "BTPathSum.h"
 #include "PathSum.h"
+#include "PathSumII.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(PathSum);
+    REGISTER_CLASS(PathSumII);
     DemoFactory::getInstance()->run();
     return 0;
 }
