@@ -82,13 +82,14 @@
 #include "SortedList2BST.h"
 #include "FlattenBST.h"
 #include "BTPathSum.h"
+#include "PathSum.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(BTPathSum);
+    REGISTER_CLASS(PathSum);
     DemoFactory::getInstance()->run();
     return 0;
 }
