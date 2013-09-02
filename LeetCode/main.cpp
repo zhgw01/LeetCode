@@ -84,13 +84,14 @@
 #include "BTPathSum.h"
 #include "PathSum.h"
 #include "PathSumII.h"
+#include "DistincSubSequence.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(PathSumII);
+    REGISTER_CLASS(DistincSubSequence);
     DemoFactory::getInstance()->run();
     return 0;
 }
