@@ -88,13 +88,14 @@
 #include "NextRightNode.h"
 #include "NextRightNodeII.h"
 #include "PascalTriangle.h"
+#include "PascalTriangleII.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(PascalTriangle);
+    REGISTER_CLASS(PascalTriangleII);
     DemoFactory::getInstance()->run();
     return 0;
 }
