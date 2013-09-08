@@ -14,6 +14,7 @@
 		110A656717C08A8D005BFEDA /* MaximumDepth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 110A656517C08A8D005BFEDA /* MaximumDepth.cpp */; };
 		1113FB1F17DB3BE5004C968D /* PascalTriangleII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1113FB1D17DB3BE5004C968D /* PascalTriangleII.cpp */; };
 		1113FB2217DC3B20004C968D /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1113FB2017DC3B20004C968D /* Triangle.cpp */; };
+		1113FB2517DC4ACA004C968D /* Stock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1113FB2317DC4ACA004C968D /* Stock.cpp */; };
 		1115509817D4B824000DB5DB /* DistincSubSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1115509617D4B824000DB5DB /* DistincSubSequence.cpp */; };
 		1115509B17D4C31F000DB5DB /* NextRightNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1115509917D4C31F000DB5DB /* NextRightNode.cpp */; };
 		1115509E17D76735000DB5DB /* NextRightNodeII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1115509C17D76735000DB5DB /* NextRightNodeII.cpp */; };
@@ -125,6 +126,8 @@
 		1113FB1E17DB3BE5004C968D /* PascalTriangleII.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PascalTriangleII.h; sourceTree = "<group>"; };
 		1113FB2017DC3B20004C968D /* Triangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Triangle.cpp; sourceTree = "<group>"; };
 		1113FB2117DC3B20004C968D /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Triangle.h; sourceTree = "<group>"; };
+		1113FB2317DC4ACA004C968D /* Stock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Stock.cpp; sourceTree = "<group>"; };
+		1113FB2417DC4ACA004C968D /* Stock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stock.h; sourceTree = "<group>"; };
 		1115509617D4B824000DB5DB /* DistincSubSequence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DistincSubSequence.cpp; sourceTree = "<group>"; };
 		1115509717D4B824000DB5DB /* DistincSubSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistincSubSequence.h; sourceTree = "<group>"; };
 		1115509917D4C31F000DB5DB /* NextRightNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NextRightNode.cpp; sourceTree = "<group>"; };
@@ -548,6 +551,8 @@
 				1113FB1E17DB3BE5004C968D /* PascalTriangleII.h */,
 				1113FB2017DC3B20004C968D /* Triangle.cpp */,
 				1113FB2117DC3B20004C968D /* Triangle.h */,
+				1113FB2317DC4ACA004C968D /* Stock.cpp */,
+				1113FB2417DC4ACA004C968D /* Stock.h */,
 			);
 			name = Number;
 			sourceTree = "<group>";
@@ -746,6 +751,7 @@
 				1118DA8117DB0282005BB645 /* PascalTriangle.cpp in Sources */,
 				1113FB1F17DB3BE5004C968D /* PascalTriangleII.cpp in Sources */,
 				1113FB2217DC3B20004C968D /* Triangle.cpp in Sources */,
+				1113FB2517DC4ACA004C968D /* Stock.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
