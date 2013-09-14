@@ -62,6 +62,7 @@
 		11A39842177D92DE0048555B /* ListNodeUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11A39840177D92DE0048555B /* ListNodeUtil.cpp */; };
 		11A48E8517E46CCD0088471D /* StockII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11A48E8317E46CCD0088471D /* StockII.cpp */; };
 		11A48E8817E46FAD0088471D /* StockIII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11A48E8617E46FAD0088471D /* StockIII.cpp */; };
+		11A48E8B17E47A460088471D /* ValidPalindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11A48E8917E47A460088471D /* ValidPalindrome.cpp */; };
 		11A613E117C9A5FC0072EFF1 /* PathSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11A613DF17C9A5FC0072EFF1 /* PathSum.cpp */; };
 		11A613E417C9AA360072EFF1 /* PathSumII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11A613E217C9AA360072EFF1 /* PathSumII.cpp */; };
 		11AF232A1781B8C900332F8A /* DivideInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11AF23281781B8C900332F8A /* DivideInteger.cpp */; };
@@ -224,6 +225,8 @@
 		11A48E8417E46CCD0088471D /* StockII.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockII.h; sourceTree = "<group>"; };
 		11A48E8617E46FAD0088471D /* StockIII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StockIII.cpp; sourceTree = "<group>"; };
 		11A48E8717E46FAD0088471D /* StockIII.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockIII.h; sourceTree = "<group>"; };
+		11A48E8917E47A460088471D /* ValidPalindrome.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ValidPalindrome.cpp; sourceTree = "<group>"; };
+		11A48E8A17E47A460088471D /* ValidPalindrome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidPalindrome.h; sourceTree = "<group>"; };
 		11A613DF17C9A5FC0072EFF1 /* PathSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PathSum.cpp; sourceTree = "<group>"; };
 		11A613E017C9A5FC0072EFF1 /* PathSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathSum.h; sourceTree = "<group>"; };
 		11A613E217C9AA360072EFF1 /* PathSumII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PathSumII.cpp; sourceTree = "<group>"; };
@@ -397,6 +400,8 @@
 				1138278F17A4E1FB00D52A90 /* LastWorldLength.h */,
 				1115509617D4B824000DB5DB /* DistincSubSequence.cpp */,
 				1115509717D4B824000DB5DB /* DistincSubSequence.h */,
+				11A48E8917E47A460088471D /* ValidPalindrome.cpp */,
+				11A48E8A17E47A460088471D /* ValidPalindrome.h */,
 			);
 			name = String;
 			sourceTree = "<group>";
@@ -764,6 +769,7 @@
 				1113FB2517DC4ACA004C968D /* Stock.cpp in Sources */,
 				11A48E8517E46CCD0088471D /* StockII.cpp in Sources */,
 				11A48E8817E46FAD0088471D /* StockIII.cpp in Sources */,
+				11A48E8B17E47A460088471D /* ValidPalindrome.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
