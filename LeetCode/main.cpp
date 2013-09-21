@@ -94,13 +94,15 @@
 #include "StockII.h"
 #include "StockIII.h"
 #include "ValidPalindrome.h"
+#include "WordLadder.h"
+#include "WordLadderII.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(ValidPalindrome);
+    REGISTER_CLASS(WordLadderII);
     DemoFactory::getInstance()->run();
     return 0;
 }

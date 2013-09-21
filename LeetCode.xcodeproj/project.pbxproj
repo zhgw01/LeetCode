@@ -63,6 +63,8 @@
 		11A48E8517E46CCD0088471D /* StockII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11A48E8317E46CCD0088471D /* StockII.cpp */; };
 		11A48E8817E46FAD0088471D /* StockIII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11A48E8617E46FAD0088471D /* StockIII.cpp */; };
 		11A48E8B17E47A460088471D /* ValidPalindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11A48E8917E47A460088471D /* ValidPalindrome.cpp */; };
+		11A48E8E17E58C8A0088471D /* WordLadder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11A48E8C17E58C8A0088471D /* WordLadder.cpp */; };
+		11A48E9117E5938F0088471D /* WordLadderII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11A48E8F17E5938F0088471D /* WordLadderII.cpp */; };
 		11A613E117C9A5FC0072EFF1 /* PathSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11A613DF17C9A5FC0072EFF1 /* PathSum.cpp */; };
 		11A613E417C9AA360072EFF1 /* PathSumII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11A613E217C9AA360072EFF1 /* PathSumII.cpp */; };
 		11AF232A1781B8C900332F8A /* DivideInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11AF23281781B8C900332F8A /* DivideInteger.cpp */; };
@@ -227,6 +229,10 @@
 		11A48E8717E46FAD0088471D /* StockIII.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockIII.h; sourceTree = "<group>"; };
 		11A48E8917E47A460088471D /* ValidPalindrome.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ValidPalindrome.cpp; sourceTree = "<group>"; };
 		11A48E8A17E47A460088471D /* ValidPalindrome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidPalindrome.h; sourceTree = "<group>"; };
+		11A48E8C17E58C8A0088471D /* WordLadder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WordLadder.cpp; sourceTree = "<group>"; };
+		11A48E8D17E58C8A0088471D /* WordLadder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordLadder.h; sourceTree = "<group>"; };
+		11A48E8F17E5938F0088471D /* WordLadderII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WordLadderII.cpp; sourceTree = "<group>"; };
+		11A48E9017E5938F0088471D /* WordLadderII.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordLadderII.h; sourceTree = "<group>"; };
 		11A613DF17C9A5FC0072EFF1 /* PathSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PathSum.cpp; sourceTree = "<group>"; };
 		11A613E017C9A5FC0072EFF1 /* PathSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathSum.h; sourceTree = "<group>"; };
 		11A613E217C9AA360072EFF1 /* PathSumII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PathSumII.cpp; sourceTree = "<group>"; };
@@ -402,6 +408,10 @@
 				1115509717D4B824000DB5DB /* DistincSubSequence.h */,
 				11A48E8917E47A460088471D /* ValidPalindrome.cpp */,
 				11A48E8A17E47A460088471D /* ValidPalindrome.h */,
+				11A48E8C17E58C8A0088471D /* WordLadder.cpp */,
+				11A48E8D17E58C8A0088471D /* WordLadder.h */,
+				11A48E8F17E5938F0088471D /* WordLadderII.cpp */,
+				11A48E9017E5938F0088471D /* WordLadderII.h */,
 			);
 			name = String;
 			sourceTree = "<group>";
@@ -770,6 +780,8 @@
 				11A48E8517E46CCD0088471D /* StockII.cpp in Sources */,
 				11A48E8817E46FAD0088471D /* StockIII.cpp in Sources */,
 				11A48E8B17E47A460088471D /* ValidPalindrome.cpp in Sources */,
+				11A48E8E17E58C8A0088471D /* WordLadder.cpp in Sources */,
+				11A48E9117E5938F0088471D /* WordLadderII.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
