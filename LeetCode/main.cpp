@@ -96,13 +96,14 @@
 #include "ValidPalindrome.h"
 #include "WordLadder.h"
 #include "WordLadderII.h"
+#include "LongestConsecutiveSequence.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(WordLadderII);
+    REGISTER_CLASS(LongestConsecutiveSequence);
     DemoFactory::getInstance()->run();
     return 0;
 }

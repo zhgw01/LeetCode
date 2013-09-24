@@ -57,6 +57,7 @@
 		11612A34174114D200E3209E /* RegularExpressionMatching.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11612A32174114D200E3209E /* RegularExpressionMatching.cpp */; };
 		11612A371743CB3A00E3209E /* Container.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11612A351743CB3A00E3209E /* Container.cpp */; };
 		118E5072177493ED004D75CD /* 4Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 118E5070177493ED004D75CD /* 4Sum.cpp */; };
+		11906C3F17F1CEE400B5E31C /* LongestConsecutiveSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11906C3D17F1CEE400B5E31C /* LongestConsecutiveSequence.cpp */; };
 		119580801775507E0035071E /* PhoneNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1195807E1775507E0035071E /* PhoneNumber.cpp */; };
 		11A3983F177D8BF70048555B /* ReverseKNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11A3983D177D8BF70048555B /* ReverseKNode.cpp */; };
 		11A39842177D92DE0048555B /* ListNodeUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11A39840177D92DE0048555B /* ListNodeUtil.cpp */; };
@@ -217,6 +218,8 @@
 		11612A361743CB3A00E3209E /* Container.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Container.h; sourceTree = "<group>"; };
 		118E5070177493ED004D75CD /* 4Sum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 4Sum.cpp; sourceTree = "<group>"; };
 		118E5071177493ED004D75CD /* 4Sum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 4Sum.h; sourceTree = "<group>"; };
+		11906C3D17F1CEE400B5E31C /* LongestConsecutiveSequence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LongestConsecutiveSequence.cpp; sourceTree = "<group>"; };
+		11906C3E17F1CEE400B5E31C /* LongestConsecutiveSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongestConsecutiveSequence.h; sourceTree = "<group>"; };
 		1195807E1775507E0035071E /* PhoneNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PhoneNumber.cpp; sourceTree = "<group>"; };
 		1195807F1775507E0035071E /* PhoneNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneNumber.h; sourceTree = "<group>"; };
 		11A3983D177D8BF70048555B /* ReverseKNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseKNode.cpp; sourceTree = "<group>"; };
@@ -373,6 +376,8 @@
 			children = (
 				115F1AD017ADF31800843356 /* MiniumWindow.cpp */,
 				115F1AD117ADF31800843356 /* MiniumWindow.h */,
+				11906C3D17F1CEE400B5E31C /* LongestConsecutiveSequence.cpp */,
+				11906C3E17F1CEE400B5E31C /* LongestConsecutiveSequence.h */,
 			);
 			name = Hash;
 			sourceTree = "<group>";
@@ -749,6 +754,7 @@
 				115F1AC417ACB2F700843356 /* Search2DMatrix.cpp in Sources */,
 				115F1AC717AD32BB00843356 /* EditDistance.cpp in Sources */,
 				115F1ACB17AD40AB00843356 /* SortColors.cpp in Sources */,
+				11906C3F17F1CEE400B5E31C /* LongestConsecutiveSequence.cpp in Sources */,
 				115F1ACE17AD42FA00843356 /* ClimbingStairs.cpp in Sources */,
 				115F1AD217ADF31800843356 /* MiniumWindow.cpp in Sources */,
 				11D7D0AB17B604DE00AFADF1 /* InorderTraversal.cpp in Sources */,
