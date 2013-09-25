@@ -97,13 +97,14 @@
 #include "WordLadder.h"
 #include "WordLadderII.h"
 #include "LongestConsecutiveSequence.h"
+#include "LeafSum.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(LongestConsecutiveSequence);
+    REGISTER_CLASS(LeafSum);
     DemoFactory::getInstance()->run();
     return 0;
 }
