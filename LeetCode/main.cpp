@@ -98,13 +98,14 @@
 #include "WordLadderII.h"
 #include "LongestConsecutiveSequence.h"
 #include "LeafSum.h"
+#include "TwoDRegion.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(LeafSum);
+    REGISTER_CLASS(TwoDRegion);
     DemoFactory::getInstance()->run();
     return 0;
 }
