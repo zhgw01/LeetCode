@@ -99,13 +99,14 @@
 #include "LongestConsecutiveSequence.h"
 #include "LeafSum.h"
 #include "TwoDRegion.h"
+#include "PalindromePartition.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(TwoDRegion);
+    REGISTER_CLASS(PalindromePartition);
     DemoFactory::getInstance()->run();
     return 0;
 }

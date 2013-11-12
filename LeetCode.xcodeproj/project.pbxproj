@@ -48,6 +48,7 @@
 		1151DF4E17733FFF004DFA95 /* 3SumClosest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1151DF4C17733FFF004DFA95 /* 3SumClosest.cpp */; };
 		1157EAB917F31D490088DA6F /* LeafSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1157EAB717F31D490088DA6F /* LeafSum.cpp */; };
 		115CD44B1831160A007A47B3 /* TwoDRegion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 115CD4491831160A007A47B3 /* TwoDRegion.cpp */; };
+		115CD44E18326AE4007A47B3 /* PalindromePartition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 115CD44C18326AE4007A47B3 /* PalindromePartition.cpp */; };
 		115F1ABD17ACA5E900843356 /* MergeTwoSortedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 115F1ABB17ACA5E900843356 /* MergeTwoSortedList.cpp */; };
 		115F1AC117ACAC1E00843356 /* SimplifyPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 115F1ABF17ACAC1E00843356 /* SimplifyPath.cpp */; };
 		115F1AC417ACB2F700843356 /* Search2DMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 115F1AC217ACB2F700843356 /* Search2DMatrix.cpp */; };
@@ -202,6 +203,8 @@
 		1157EAB817F31D490088DA6F /* LeafSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeafSum.h; sourceTree = "<group>"; };
 		115CD4491831160A007A47B3 /* TwoDRegion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TwoDRegion.cpp; sourceTree = "<group>"; };
 		115CD44A1831160A007A47B3 /* TwoDRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoDRegion.h; sourceTree = "<group>"; };
+		115CD44C18326AE4007A47B3 /* PalindromePartition.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PalindromePartition.cpp; sourceTree = "<group>"; };
+		115CD44D18326AE4007A47B3 /* PalindromePartition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PalindromePartition.h; sourceTree = "<group>"; };
 		115F1ABB17ACA5E900843356 /* MergeTwoSortedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeTwoSortedList.cpp; sourceTree = "<group>"; };
 		115F1ABC17ACA5E900843356 /* MergeTwoSortedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeTwoSortedList.h; sourceTree = "<group>"; };
 		115F1ABF17ACAC1E00843356 /* SimplifyPath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimplifyPath.cpp; sourceTree = "<group>"; };
@@ -432,6 +435,8 @@
 				11A48E8D17E58C8A0088471D /* WordLadder.h */,
 				11A48E8F17E5938F0088471D /* WordLadderII.cpp */,
 				11A48E9017E5938F0088471D /* WordLadderII.h */,
+				115CD44C18326AE4007A47B3 /* PalindromePartition.cpp */,
+				115CD44D18326AE4007A47B3 /* PalindromePartition.h */,
 			);
 			name = String;
 			sourceTree = "<group>";
@@ -774,6 +779,7 @@
 				115F1ACB17AD40AB00843356 /* SortColors.cpp in Sources */,
 				11906C3F17F1CEE400B5E31C /* LongestConsecutiveSequence.cpp in Sources */,
 				115F1ACE17AD42FA00843356 /* ClimbingStairs.cpp in Sources */,
+				115CD44E18326AE4007A47B3 /* PalindromePartition.cpp in Sources */,
 				115F1AD217ADF31800843356 /* MiniumWindow.cpp in Sources */,
 				11D7D0AB17B604DE00AFADF1 /* InorderTraversal.cpp in Sources */,
 				11D7D0AE17B6051500AFADF1 /* Tree.cpp in Sources */,
