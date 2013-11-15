@@ -28,6 +28,7 @@
 		1128AF1417C87B89001136D8 /* BalancedTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1128AF1217C87B89001136D8 /* BalancedTree.cpp */; };
 		1128AF1717C880E7001136D8 /* MinimumDepth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1128AF1517C880E7001136D8 /* MinimumDepth.cpp */; };
 		1128AF1A17C88AC6001136D8 /* Array2BST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1128AF1817C88AC6001136D8 /* Array2BST.cpp */; };
+		112AF2281836595700EA9452 /* CloneGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 112AF2261836595700EA9452 /* CloneGraph.cpp */; };
 		1138277717A2A5E600D52A90 /* Anagram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1138277517A2A5E600D52A90 /* Anagram.cpp */; };
 		1138277A17A2AD7400D52A90 /* PowerN.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1138277817A2AD7400D52A90 /* PowerN.cpp */; };
 		1138277D17A3683400D52A90 /* NQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1138277B17A3683400D52A90 /* NQueue.cpp */; };
@@ -164,6 +165,9 @@
 		1128AF1617C880E7001136D8 /* MinimumDepth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinimumDepth.h; sourceTree = "<group>"; };
 		1128AF1817C88AC6001136D8 /* Array2BST.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Array2BST.cpp; sourceTree = "<group>"; };
 		1128AF1917C88AC6001136D8 /* Array2BST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Array2BST.h; sourceTree = "<group>"; };
+		112AF2251836588F00EA9452 /* Graph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Graph.h; sourceTree = "<group>"; };
+		112AF2261836595700EA9452 /* CloneGraph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CloneGraph.cpp; sourceTree = "<group>"; };
+		112AF2271836595700EA9452 /* CloneGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloneGraph.h; sourceTree = "<group>"; };
 		1138277517A2A5E600D52A90 /* Anagram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Anagram.cpp; sourceTree = "<group>"; };
 		1138277617A2A5E600D52A90 /* Anagram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Anagram.h; sourceTree = "<group>"; };
 		1138277817A2AD7400D52A90 /* PowerN.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PowerN.cpp; sourceTree = "<group>"; };
@@ -370,6 +374,9 @@
 			children = (
 				115CD4491831160A007A47B3 /* TwoDRegion.cpp */,
 				115CD44A1831160A007A47B3 /* TwoDRegion.h */,
+				112AF2251836588F00EA9452 /* Graph.h */,
+				112AF2261836595700EA9452 /* CloneGraph.cpp */,
+				112AF2271836595700EA9452 /* CloneGraph.h */,
 			);
 			name = Graph;
 			sourceTree = "<group>";
@@ -803,6 +810,7 @@
 				1128AF1717C880E7001136D8 /* MinimumDepth.cpp in Sources */,
 				1128AF1A17C88AC6001136D8 /* Array2BST.cpp in Sources */,
 				11F70B7C17C8AC9500872A66 /* SortedList2BST.cpp in Sources */,
+				112AF2281836595700EA9452 /* CloneGraph.cpp in Sources */,
 				11F70B7F17C8B16A00872A66 /* FlattenBST.cpp in Sources */,
 				11F70B8217C8B53400872A66 /* BTPathSum.cpp in Sources */,
 				11A613E117C9A5FC0072EFF1 /* PathSum.cpp in Sources */,
