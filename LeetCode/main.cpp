@@ -103,13 +103,14 @@
 #include "PalindromePartitionII.h"
 #include "CloneGraph.h"
 #include "GasStation.h"
+#include "Candy.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(GasStation);
+    REGISTER_CLASS(Candy);
     DemoFactory::getInstance()->run();
     return 0;
 }

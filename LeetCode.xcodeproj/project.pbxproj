@@ -21,6 +21,7 @@
 		1118CF9818372B46008D8C5F /* GasStation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1118CF9618372B46008D8C5F /* GasStation.cpp */; };
 		1118DA8117DB0282005BB645 /* PascalTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1118DA7F17DB0282005BB645 /* PascalTriangle.cpp */; };
 		111D6671177D81C000AC9D85 /* SwapNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 111D666F177D81C000AC9D85 /* SwapNode.cpp */; };
+		11215EFA183A49F1009B91A4 /* Candy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11215EF8183A49F1009B91A4 /* Candy.cpp */; };
 		1121D7A91799810E00CED9D8 /* CombineSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1121D7A71799810E00CED9D8 /* CombineSum.cpp */; };
 		1121D7AC179A649300CED9D8 /* CombineSumUnique.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1121D7AA179A649300CED9D8 /* CombineSumUnique.cpp */; };
 		1121D7AF179A69F500CED9D8 /* FindMissingValue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1121D7AD179A69F500CED9D8 /* FindMissingValue.cpp */; };
@@ -152,6 +153,8 @@
 		1118DA8017DB0282005BB645 /* PascalTriangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PascalTriangle.h; sourceTree = "<group>"; };
 		111D666F177D81C000AC9D85 /* SwapNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SwapNode.cpp; sourceTree = "<group>"; };
 		111D6670177D81C000AC9D85 /* SwapNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwapNode.h; sourceTree = "<group>"; };
+		11215EF8183A49F1009B91A4 /* Candy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Candy.cpp; sourceTree = "<group>"; };
+		11215EF9183A49F1009B91A4 /* Candy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Candy.h; sourceTree = "<group>"; };
 		1121D7A71799810E00CED9D8 /* CombineSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CombineSum.cpp; sourceTree = "<group>"; };
 		1121D7A81799810E00CED9D8 /* CombineSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CombineSum.h; sourceTree = "<group>"; };
 		1121D7AA179A649300CED9D8 /* CombineSumUnique.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CombineSumUnique.cpp; sourceTree = "<group>"; };
@@ -490,6 +493,8 @@
 				1138278917A3F30700D52A90 /* MergeInterval.h */,
 				1138278B17A4B0A800D52A90 /* InsertInterval.cpp */,
 				1138278C17A4B0A800D52A90 /* InsertInterval.h */,
+				11215EF8183A49F1009B91A4 /* Candy.cpp */,
+				11215EF9183A49F1009B91A4 /* Candy.h */,
 			);
 			name = Array;
 			sourceTree = "<group>";
@@ -795,6 +800,7 @@
 				115F1AC117ACAC1E00843356 /* SimplifyPath.cpp in Sources */,
 				115F1AC417ACB2F700843356 /* Search2DMatrix.cpp in Sources */,
 				115F1AC717AD32BB00843356 /* EditDistance.cpp in Sources */,
+				11215EFA183A49F1009B91A4 /* Candy.cpp in Sources */,
 				115F1ACB17AD40AB00843356 /* SortColors.cpp in Sources */,
 				11906C3F17F1CEE400B5E31C /* LongestConsecutiveSequence.cpp in Sources */,
 				115F1ACE17AD42FA00843356 /* ClimbingStairs.cpp in Sources */,
