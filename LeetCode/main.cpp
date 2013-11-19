@@ -104,13 +104,14 @@
 #include "CloneGraph.h"
 #include "GasStation.h"
 #include "Candy.h"
+#include "SingleNumber.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(Candy);
+    REGISTER_CLASS(SingleNumber);
     DemoFactory::getInstance()->run();
     return 0;
 }

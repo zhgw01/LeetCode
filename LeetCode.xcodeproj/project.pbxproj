@@ -27,6 +27,7 @@
 		1121D7AF179A69F500CED9D8 /* FindMissingValue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1121D7AD179A69F500CED9D8 /* FindMissingValue.cpp */; };
 		1121D7B2179A758500CED9D8 /* RainWater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1121D7B0179A758500CED9D8 /* RainWater.cpp */; };
 		1121D7B5179AC6D000CED9D8 /* MultiplyString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1121D7B3179AC6D000CED9D8 /* MultiplyString.cpp */; };
+		1126BD2C183BAB700011DE10 /* SingleNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1126BD2A183BAB700011DE10 /* SingleNumber.cpp */; };
 		1128AF1417C87B89001136D8 /* BalancedTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1128AF1217C87B89001136D8 /* BalancedTree.cpp */; };
 		1128AF1717C880E7001136D8 /* MinimumDepth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1128AF1517C880E7001136D8 /* MinimumDepth.cpp */; };
 		1128AF1A17C88AC6001136D8 /* Array2BST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1128AF1817C88AC6001136D8 /* Array2BST.cpp */; };
@@ -165,6 +166,8 @@
 		1121D7B1179A758500CED9D8 /* RainWater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RainWater.h; sourceTree = "<group>"; };
 		1121D7B3179AC6D000CED9D8 /* MultiplyString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MultiplyString.cpp; sourceTree = "<group>"; };
 		1121D7B4179AC6D000CED9D8 /* MultiplyString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiplyString.h; sourceTree = "<group>"; };
+		1126BD2A183BAB700011DE10 /* SingleNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SingleNumber.cpp; sourceTree = "<group>"; };
+		1126BD2B183BAB700011DE10 /* SingleNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleNumber.h; sourceTree = "<group>"; };
 		1128AF1217C87B89001136D8 /* BalancedTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BalancedTree.cpp; sourceTree = "<group>"; };
 		1128AF1317C87B89001136D8 /* BalancedTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BalancedTree.h; sourceTree = "<group>"; };
 		1128AF1517C880E7001136D8 /* MinimumDepth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MinimumDepth.cpp; sourceTree = "<group>"; };
@@ -626,6 +629,8 @@
 				11A48E8417E46CCD0088471D /* StockII.h */,
 				11A48E8617E46FAD0088471D /* StockIII.cpp */,
 				11A48E8717E46FAD0088471D /* StockIII.h */,
+				1126BD2A183BAB700011DE10 /* SingleNumber.cpp */,
+				1126BD2B183BAB700011DE10 /* SingleNumber.h */,
 			);
 			name = Number;
 			sourceTree = "<group>";
@@ -773,6 +778,7 @@
 				1121D7A91799810E00CED9D8 /* CombineSum.cpp in Sources */,
 				1121D7AC179A649300CED9D8 /* CombineSumUnique.cpp in Sources */,
 				1121D7AF179A69F500CED9D8 /* FindMissingValue.cpp in Sources */,
+				1126BD2C183BAB700011DE10 /* SingleNumber.cpp in Sources */,
 				1121D7B2179A758500CED9D8 /* RainWater.cpp in Sources */,
 				1121D7B5179AC6D000CED9D8 /* MultiplyString.cpp in Sources */,
 				11E966B0179B9CB500A18E23 /* WildCardMatch.cpp in Sources */,
