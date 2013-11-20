@@ -102,6 +102,7 @@
 		11D7D0AB17B604DE00AFADF1 /* InorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11D7D0A917B604DE00AFADF1 /* InorderTraversal.cpp */; };
 		11D7D0AE17B6051500AFADF1 /* Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11D7D0AC17B6051500AFADF1 /* Tree.cpp */; };
 		11E966B0179B9CB500A18E23 /* WildCardMatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11E966AE179B9CB500A18E23 /* WildCardMatch.cpp */; };
+		11F2975D183CE84700F68B60 /* CopyList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11F2975B183CE84700F68B60 /* CopyList.cpp */; };
 		11F34F5F17A69020004BF835 /* UniquePath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11F34F5D17A69020004BF835 /* UniquePath.cpp */; };
 		11F34F6217A69890004BF835 /* UniquePathII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11F34F6017A69890004BF835 /* UniquePathII.cpp */; };
 		11F34F6517A69D65004BF835 /* MiniumPathSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11F34F6317A69D65004BF835 /* MiniumPathSum.cpp */; };
@@ -316,6 +317,8 @@
 		11D7D0AD17B6051500AFADF1 /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
 		11E966AE179B9CB500A18E23 /* WildCardMatch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WildCardMatch.cpp; sourceTree = "<group>"; };
 		11E966AF179B9CB500A18E23 /* WildCardMatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WildCardMatch.h; sourceTree = "<group>"; };
+		11F2975B183CE84700F68B60 /* CopyList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CopyList.cpp; sourceTree = "<group>"; };
+		11F2975C183CE84700F68B60 /* CopyList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CopyList.h; sourceTree = "<group>"; };
 		11F34F5D17A69020004BF835 /* UniquePath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UniquePath.cpp; sourceTree = "<group>"; };
 		11F34F5E17A69020004BF835 /* UniquePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniquePath.h; sourceTree = "<group>"; };
 		11F34F6017A69890004BF835 /* UniquePathII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UniquePathII.cpp; sourceTree = "<group>"; };
@@ -519,6 +522,8 @@
 				1138279517A4F3C600D52A90 /* RotateList.h */,
 				115F1ABB17ACA5E900843356 /* MergeTwoSortedList.cpp */,
 				115F1ABC17ACA5E900843356 /* MergeTwoSortedList.h */,
+				11F2975B183CE84700F68B60 /* CopyList.cpp */,
+				11F2975C183CE84700F68B60 /* CopyList.h */,
 			);
 			name = List;
 			sourceTree = "<group>";
@@ -823,6 +828,7 @@
 				11BFE0B617BD134D00DDDB85 /* SymmetricTree.cpp in Sources */,
 				110A656117C07C2F005BFEDA /* LevelTraversal.cpp in Sources */,
 				110A656417C08131005BFEDA /* ZigZagTraversal.cpp in Sources */,
+				11F2975D183CE84700F68B60 /* CopyList.cpp in Sources */,
 				110A656717C08A8D005BFEDA /* MaximumDepth.cpp in Sources */,
 				1128AF1417C87B89001136D8 /* BalancedTree.cpp in Sources */,
 				1128AF1717C880E7001136D8 /* MinimumDepth.cpp in Sources */,
