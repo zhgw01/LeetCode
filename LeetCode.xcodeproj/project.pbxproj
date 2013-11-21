@@ -64,6 +64,7 @@
 		11612A30174112EF00E3209E /* PalindromeNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11612A2E174112EF00E3209E /* PalindromeNumber.cpp */; };
 		11612A34174114D200E3209E /* RegularExpressionMatching.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11612A32174114D200E3209E /* RegularExpressionMatching.cpp */; };
 		11612A371743CB3A00E3209E /* Container.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11612A351743CB3A00E3209E /* Container.cpp */; };
+		11712888183E4C9800DEE5E0 /* WordBreak.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11712886183E4C9800DEE5E0 /* WordBreak.cpp */; };
 		118E5072177493ED004D75CD /* 4Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 118E5070177493ED004D75CD /* 4Sum.cpp */; };
 		11906C3F17F1CEE400B5E31C /* LongestConsecutiveSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11906C3D17F1CEE400B5E31C /* LongestConsecutiveSequence.cpp */; };
 		119580801775507E0035071E /* PhoneNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1195807E1775507E0035071E /* PhoneNumber.cpp */; };
@@ -242,6 +243,8 @@
 		11612A33174114D200E3209E /* RegularExpressionMatching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegularExpressionMatching.h; sourceTree = "<group>"; };
 		11612A351743CB3A00E3209E /* Container.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Container.cpp; sourceTree = "<group>"; };
 		11612A361743CB3A00E3209E /* Container.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Container.h; sourceTree = "<group>"; };
+		11712886183E4C9800DEE5E0 /* WordBreak.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WordBreak.cpp; sourceTree = "<group>"; };
+		11712887183E4C9800DEE5E0 /* WordBreak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordBreak.h; sourceTree = "<group>"; };
 		118E5070177493ED004D75CD /* 4Sum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 4Sum.cpp; sourceTree = "<group>"; };
 		118E5071177493ED004D75CD /* 4Sum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 4Sum.h; sourceTree = "<group>"; };
 		11906C3D17F1CEE400B5E31C /* LongestConsecutiveSequence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LongestConsecutiveSequence.cpp; sourceTree = "<group>"; };
@@ -463,6 +466,8 @@
 				115CD44D18326AE4007A47B3 /* PalindromePartition.h */,
 				114291C51833B78200570FDA /* PalindromePartitionII.cpp */,
 				114291C61833B78200570FDA /* PalindromePartitionII.h */,
+				11712886183E4C9800DEE5E0 /* WordBreak.cpp */,
+				11712887183E4C9800DEE5E0 /* WordBreak.h */,
 			);
 			name = String;
 			sourceTree = "<group>";
@@ -788,6 +793,7 @@
 				1121D7B5179AC6D000CED9D8 /* MultiplyString.cpp in Sources */,
 				11E966B0179B9CB500A18E23 /* WildCardMatch.cpp in Sources */,
 				11CD5AAA179EC09000ECB7C2 /* JumpGame.cpp in Sources */,
+				11712888183E4C9800DEE5E0 /* WordBreak.cpp in Sources */,
 				11BC77BA17A00524009AE343 /* JumpGameDetermine.cpp in Sources */,
 				11BC77BE17A00987009AE343 /* Permutation.cpp in Sources */,
 				11BC77C117A012D5009AE343 /* UniquePermuation.cpp in Sources */,

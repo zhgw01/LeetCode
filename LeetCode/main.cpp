@@ -106,13 +106,14 @@
 #include "Candy.h"
 #include "SingleNumber.h"
 #include "CopyList.h"
+#include "WordBreak.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(CopyList);
+    REGISTER_CLASS(WordBreak);
     DemoFactory::getInstance()->run();
     return 0;
 }
