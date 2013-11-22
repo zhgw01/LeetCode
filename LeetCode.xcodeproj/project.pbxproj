@@ -12,6 +12,7 @@
 		110A656117C07C2F005BFEDA /* LevelTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 110A655F17C07C2F005BFEDA /* LevelTraversal.cpp */; };
 		110A656417C08131005BFEDA /* ZigZagTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 110A656217C08131005BFEDA /* ZigZagTraversal.cpp */; };
 		110A656717C08A8D005BFEDA /* MaximumDepth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 110A656517C08A8D005BFEDA /* MaximumDepth.cpp */; };
+		11110CE6183F838C006F7CDD /* WordBreakII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11110CE4183F838C006F7CDD /* WordBreakII.cpp */; };
 		1113FB1F17DB3BE5004C968D /* PascalTriangleII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1113FB1D17DB3BE5004C968D /* PascalTriangleII.cpp */; };
 		1113FB2217DC3B20004C968D /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1113FB2017DC3B20004C968D /* Triangle.cpp */; };
 		1113FB2517DC4ACA004C968D /* Stock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1113FB2317DC4ACA004C968D /* Stock.cpp */; };
@@ -138,6 +139,8 @@
 		110A656317C08131005BFEDA /* ZigZagTraversal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZigZagTraversal.h; sourceTree = "<group>"; };
 		110A656517C08A8D005BFEDA /* MaximumDepth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaximumDepth.cpp; sourceTree = "<group>"; };
 		110A656617C08A8D005BFEDA /* MaximumDepth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaximumDepth.h; sourceTree = "<group>"; };
+		11110CE4183F838C006F7CDD /* WordBreakII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WordBreakII.cpp; sourceTree = "<group>"; };
+		11110CE5183F838C006F7CDD /* WordBreakII.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordBreakII.h; sourceTree = "<group>"; };
 		1113FB1D17DB3BE5004C968D /* PascalTriangleII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PascalTriangleII.cpp; sourceTree = "<group>"; };
 		1113FB1E17DB3BE5004C968D /* PascalTriangleII.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PascalTriangleII.h; sourceTree = "<group>"; };
 		1113FB2017DC3B20004C968D /* Triangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Triangle.cpp; sourceTree = "<group>"; };
@@ -468,6 +471,8 @@
 				114291C61833B78200570FDA /* PalindromePartitionII.h */,
 				11712886183E4C9800DEE5E0 /* WordBreak.cpp */,
 				11712887183E4C9800DEE5E0 /* WordBreak.h */,
+				11110CE4183F838C006F7CDD /* WordBreakII.cpp */,
+				11110CE5183F838C006F7CDD /* WordBreakII.h */,
 			);
 			name = String;
 			sourceTree = "<group>";
@@ -852,6 +857,7 @@
 				1113FB1F17DB3BE5004C968D /* PascalTriangleII.cpp in Sources */,
 				1113FB2217DC3B20004C968D /* Triangle.cpp in Sources */,
 				1113FB2517DC4ACA004C968D /* Stock.cpp in Sources */,
+				11110CE6183F838C006F7CDD /* WordBreakII.cpp in Sources */,
 				11A48E8517E46CCD0088471D /* StockII.cpp in Sources */,
 				11A48E8817E46FAD0088471D /* StockIII.cpp in Sources */,
 				11A48E8B17E47A460088471D /* ValidPalindrome.cpp in Sources */,
