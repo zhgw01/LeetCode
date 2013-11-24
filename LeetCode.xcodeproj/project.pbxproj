@@ -51,6 +51,7 @@
 		114291C71833B78200570FDA /* PalindromePartitionII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 114291C51833B78200570FDA /* PalindromePartitionII.cpp */; };
 		114CD9AF1779D6AF009F86BB /* MergeKList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 114CD9AD1779D6AF009F86BB /* MergeKList.cpp */; };
 		114EC2C517A1658000C7E7C5 /* RotateImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 114EC2C317A1658000C7E7C5 /* RotateImage.cpp */; };
+		115096F51841BF7C00875625 /* ReorderList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 115096F31841BF7C00875625 /* ReorderList.cpp */; };
 		1151DF4E17733FFF004DFA95 /* 3SumClosest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1151DF4C17733FFF004DFA95 /* 3SumClosest.cpp */; };
 		1157EAB917F31D490088DA6F /* LeafSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1157EAB717F31D490088DA6F /* LeafSum.cpp */; };
 		115CD44B1831160A007A47B3 /* TwoDRegion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 115CD4491831160A007A47B3 /* TwoDRegion.cpp */; };
@@ -219,6 +220,8 @@
 		114CD9AE1779D6AF009F86BB /* MergeKList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeKList.h; sourceTree = "<group>"; };
 		114EC2C317A1658000C7E7C5 /* RotateImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RotateImage.cpp; sourceTree = "<group>"; };
 		114EC2C417A1658000C7E7C5 /* RotateImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateImage.h; sourceTree = "<group>"; };
+		115096F31841BF7C00875625 /* ReorderList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReorderList.cpp; sourceTree = "<group>"; };
+		115096F41841BF7C00875625 /* ReorderList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReorderList.h; sourceTree = "<group>"; };
 		1151DF4C17733FFF004DFA95 /* 3SumClosest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 3SumClosest.cpp; sourceTree = "<group>"; };
 		1151DF4D17733FFF004DFA95 /* 3SumClosest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 3SumClosest.h; sourceTree = "<group>"; };
 		1157EAB717F31D490088DA6F /* LeafSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LeafSum.cpp; sourceTree = "<group>"; };
@@ -539,6 +542,8 @@
 				11F2975C183CE84700F68B60 /* CopyList.h */,
 				115EA16B18405E70000D4038 /* LinkedListCycleII.cpp */,
 				115EA16C18405E70000D4038 /* LinkedListCycleII.h */,
+				115096F31841BF7C00875625 /* ReorderList.cpp */,
+				115096F41841BF7C00875625 /* ReorderList.h */,
 			);
 			name = List;
 			sourceTree = "<group>";
@@ -849,6 +854,7 @@
 				110A656717C08A8D005BFEDA /* MaximumDepth.cpp in Sources */,
 				1128AF1417C87B89001136D8 /* BalancedTree.cpp in Sources */,
 				1128AF1717C880E7001136D8 /* MinimumDepth.cpp in Sources */,
+				115096F51841BF7C00875625 /* ReorderList.cpp in Sources */,
 				1128AF1A17C88AC6001136D8 /* Array2BST.cpp in Sources */,
 				11F70B7C17C8AC9500872A66 /* SortedList2BST.cpp in Sources */,
 				112AF2281836595700EA9452 /* CloneGraph.cpp in Sources */,
