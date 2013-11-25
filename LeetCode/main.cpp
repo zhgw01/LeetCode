@@ -110,13 +110,15 @@
 #include "WordBreakII.h"
 #include "LinkedListCycleII.h"
 #include "ReorderList.h"
+#include "Preorder.h"
+#include "Postorder.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(ReorderList);
+    REGISTER_CLASS(Postorder);
     DemoFactory::getInstance()->run();
     return 0;
 }
