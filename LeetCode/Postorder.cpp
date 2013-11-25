@@ -9,6 +9,7 @@
 #include "Postorder.h"
 #include <stack>
 #include <unordered_map>
+#include <algorithm>
 
 using namespace std;
 
@@ -28,8 +29,37 @@ void Postorder::test1()
     assert(result.size() == 2);
 }
 
-
 vector<int> Postorder::postorderTraversal(TreeNode *root)
+{
+    vector<int> result;
+    
+    stack<TreeNode*> nodes;
+    if (root) {
+        nodes.push(root);
+    }
+    
+    while (!nodes.empty()) {
+        TreeNode* node = nodes.top();
+        result.push_back(node->val);
+        nodes.pop();
+        
+        if (node->left) {
+            nodes.push(node->left);
+        }
+        
+        if (node->right) {
+            nodes.push(node->right);
+        }
+    }
+    
+    //reverse the result
+    std::reverse(result.begin(), result.end());
+    
+    return result;
+    
+}
+
+vector<int> Postorder::postorderTraversal2(TreeNode *root)
 {
     vector<int> result;
     

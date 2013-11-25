@@ -23,6 +23,7 @@ private:
     void test1();
     
     vector<int> postorderTraversal(TreeNode *root);
+    vector<int> postorderTraversal2(TreeNode *root);
 
 };
 
