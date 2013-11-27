@@ -67,6 +67,7 @@
 		11612A30174112EF00E3209E /* PalindromeNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11612A2E174112EF00E3209E /* PalindromeNumber.cpp */; };
 		11612A34174114D200E3209E /* RegularExpressionMatching.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11612A32174114D200E3209E /* RegularExpressionMatching.cpp */; };
 		11612A371743CB3A00E3209E /* Container.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11612A351743CB3A00E3209E /* Container.cpp */; };
+		116EAED31844E9630013F111 /* LRUCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 116EAED11844E9630013F111 /* LRUCache.cpp */; };
 		11712888183E4C9800DEE5E0 /* WordBreak.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11712886183E4C9800DEE5E0 /* WordBreak.cpp */; };
 		1188071B18437AA40013C779 /* Preorder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1188071918437AA40013C779 /* Preorder.cpp */; };
 		1188071E18437D840013C779 /* Postorder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1188071C18437D840013C779 /* Postorder.cpp */; };
@@ -254,6 +255,8 @@
 		11612A33174114D200E3209E /* RegularExpressionMatching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegularExpressionMatching.h; sourceTree = "<group>"; };
 		11612A351743CB3A00E3209E /* Container.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Container.cpp; sourceTree = "<group>"; };
 		11612A361743CB3A00E3209E /* Container.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Container.h; sourceTree = "<group>"; };
+		116EAED11844E9630013F111 /* LRUCache.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LRUCache.cpp; sourceTree = "<group>"; };
+		116EAED21844E9630013F111 /* LRUCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRUCache.h; sourceTree = "<group>"; };
 		11712886183E4C9800DEE5E0 /* WordBreak.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WordBreak.cpp; sourceTree = "<group>"; };
 		11712887183E4C9800DEE5E0 /* WordBreak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordBreak.h; sourceTree = "<group>"; };
 		1188071918437AA40013C779 /* Preorder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Preorder.cpp; sourceTree = "<group>"; };
@@ -438,6 +441,8 @@
 				115F1AD117ADF31800843356 /* MiniumWindow.h */,
 				11906C3D17F1CEE400B5E31C /* LongestConsecutiveSequence.cpp */,
 				11906C3E17F1CEE400B5E31C /* LongestConsecutiveSequence.h */,
+				116EAED11844E9630013F111 /* LRUCache.cpp */,
+				116EAED21844E9630013F111 /* LRUCache.h */,
 			);
 			name = Hash;
 			sourceTree = "<group>";
@@ -779,6 +784,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				116EAED31844E9630013F111 /* LRUCache.cpp in Sources */,
 				11CF6F3A172571CE008D0992 /* main.cpp in Sources */,
 				11CF6F4417257212008D0992 /* IRun.cpp in Sources */,
 				11CF6F4817257353008D0992 /* ReverseDigit.cpp in Sources */,
