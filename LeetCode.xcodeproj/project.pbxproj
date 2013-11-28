@@ -109,6 +109,7 @@
 		11D7D0AB17B604DE00AFADF1 /* InorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11D7D0A917B604DE00AFADF1 /* InorderTraversal.cpp */; };
 		11D7D0AE17B6051500AFADF1 /* Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11D7D0AC17B6051500AFADF1 /* Tree.cpp */; };
 		11E966B0179B9CB500A18E23 /* WildCardMatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11E966AE179B9CB500A18E23 /* WildCardMatch.cpp */; };
+		11EBA5AA1847741900AE136A /* InsertionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11EBA5A81847741900AE136A /* InsertionSort.cpp */; };
 		11F2975D183CE84700F68B60 /* CopyList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11F2975B183CE84700F68B60 /* CopyList.cpp */; };
 		11F34F5F17A69020004BF835 /* UniquePath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11F34F5D17A69020004BF835 /* UniquePath.cpp */; };
 		11F34F6217A69890004BF835 /* UniquePathII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11F34F6017A69890004BF835 /* UniquePathII.cpp */; };
@@ -338,6 +339,8 @@
 		11D7D0AD17B6051500AFADF1 /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
 		11E966AE179B9CB500A18E23 /* WildCardMatch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WildCardMatch.cpp; sourceTree = "<group>"; };
 		11E966AF179B9CB500A18E23 /* WildCardMatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WildCardMatch.h; sourceTree = "<group>"; };
+		11EBA5A81847741900AE136A /* InsertionSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSort.cpp; sourceTree = "<group>"; };
+		11EBA5A91847741900AE136A /* InsertionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertionSort.h; sourceTree = "<group>"; };
 		11F2975B183CE84700F68B60 /* CopyList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CopyList.cpp; sourceTree = "<group>"; };
 		11F2975C183CE84700F68B60 /* CopyList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CopyList.h; sourceTree = "<group>"; };
 		11F34F5D17A69020004BF835 /* UniquePath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UniquePath.cpp; sourceTree = "<group>"; };
@@ -555,6 +558,8 @@
 				115EA16C18405E70000D4038 /* LinkedListCycleII.h */,
 				115096F31841BF7C00875625 /* ReorderList.cpp */,
 				115096F41841BF7C00875625 /* ReorderList.h */,
+				11EBA5A81847741900AE136A /* InsertionSort.cpp */,
+				11EBA5A91847741900AE136A /* InsertionSort.h */,
 			);
 			name = List;
 			sourceTree = "<group>";
@@ -888,6 +893,7 @@
 				1113FB2217DC3B20004C968D /* Triangle.cpp in Sources */,
 				1113FB2517DC4ACA004C968D /* Stock.cpp in Sources */,
 				11110CE6183F838C006F7CDD /* WordBreakII.cpp in Sources */,
+				11EBA5AA1847741900AE136A /* InsertionSort.cpp in Sources */,
 				11A48E8517E46CCD0088471D /* StockII.cpp in Sources */,
 				11A48E8817E46FAD0088471D /* StockIII.cpp in Sources */,
 				11A48E8B17E47A460088471D /* ValidPalindrome.cpp in Sources */,

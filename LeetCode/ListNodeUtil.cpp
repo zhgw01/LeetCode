@@ -31,6 +31,25 @@ ListNode* ListNodeUtil::createListFromArray(int *nums, int n)
 
 }
 
+ListNode* ListNodeUtil::createListFromVector(std::vector<int> &v)
+{
+    ListNode* head = NULL;
+    
+    ListNode* prev = NULL;
+    for(int i : v)
+    {
+        ListNode* node = new ListNode(i);
+        if (prev)
+            prev->next = node;
+        else
+            head = node;
+        
+        prev = node;
+    }
+    
+    return head;
+}
+
 vector<int> ListNodeUtil::getArrayFromList(ListNode *head)
 {
     

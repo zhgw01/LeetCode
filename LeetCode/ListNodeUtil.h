@@ -15,6 +15,7 @@ class ListNodeUtil {
     
 public:
     static ListNode* createListFromArray(int nums[], int n);
+    static ListNode* createListFromVector(std::vector<int>& v);
     static std::vector<int> getArrayFromList(ListNode *head);
     
 };
