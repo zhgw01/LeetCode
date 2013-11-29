@@ -114,13 +114,14 @@
 #include "Postorder.h"
 #include "LRUCache.h"
 #include "InsertionSort.h"
+#include "SortList.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(InsertionSort);
+    REGISTER_CLASS(SortList);
     DemoFactory::getInstance()->run();
     return 0;
 }
