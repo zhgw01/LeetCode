@@ -115,13 +115,14 @@
 #include "LRUCache.h"
 #include "InsertionSort.h"
 #include "SortList.h"
+#include "MaxPoints.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(SortList);
+    REGISTER_CLASS(MaxPoints);
     DemoFactory::getInstance()->run();
     return 0;
 }

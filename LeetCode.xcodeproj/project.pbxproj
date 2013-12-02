@@ -68,6 +68,7 @@
 		11612A30174112EF00E3209E /* PalindromeNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11612A2E174112EF00E3209E /* PalindromeNumber.cpp */; };
 		11612A34174114D200E3209E /* RegularExpressionMatching.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11612A32174114D200E3209E /* RegularExpressionMatching.cpp */; };
 		11612A371743CB3A00E3209E /* Container.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11612A351743CB3A00E3209E /* Container.cpp */; };
+		1168C9C9184CBEB900766945 /* MaxPoints.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1168C9C7184CBEB900766945 /* MaxPoints.cpp */; };
 		116EAED31844E9630013F111 /* LRUCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 116EAED11844E9630013F111 /* LRUCache.cpp */; };
 		11712888183E4C9800DEE5E0 /* WordBreak.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11712886183E4C9800DEE5E0 /* WordBreak.cpp */; };
 		1188071B18437AA40013C779 /* Preorder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1188071918437AA40013C779 /* Preorder.cpp */; };
@@ -259,6 +260,8 @@
 		11612A33174114D200E3209E /* RegularExpressionMatching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegularExpressionMatching.h; sourceTree = "<group>"; };
 		11612A351743CB3A00E3209E /* Container.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Container.cpp; sourceTree = "<group>"; };
 		11612A361743CB3A00E3209E /* Container.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Container.h; sourceTree = "<group>"; };
+		1168C9C7184CBEB900766945 /* MaxPoints.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaxPoints.cpp; sourceTree = "<group>"; };
+		1168C9C8184CBEB900766945 /* MaxPoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaxPoints.h; sourceTree = "<group>"; };
 		116EAED11844E9630013F111 /* LRUCache.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LRUCache.cpp; sourceTree = "<group>"; };
 		116EAED21844E9630013F111 /* LRUCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRUCache.h; sourceTree = "<group>"; };
 		11712886183E4C9800DEE5E0 /* WordBreak.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WordBreak.cpp; sourceTree = "<group>"; };
@@ -427,6 +430,8 @@
 			children = (
 				115F1ABF17ACAC1E00843356 /* SimplifyPath.cpp */,
 				115F1AC017ACAC1E00843356 /* SimplifyPath.h */,
+				1168C9C7184CBEB900766945 /* MaxPoints.cpp */,
+				1168C9C8184CBEB900766945 /* MaxPoints.h */,
 			);
 			name = Unknown;
 			sourceTree = "<group>";
@@ -802,6 +807,7 @@
 				11612A30174112EF00E3209E /* PalindromeNumber.cpp in Sources */,
 				11612A34174114D200E3209E /* RegularExpressionMatching.cpp in Sources */,
 				11612A371743CB3A00E3209E /* Container.cpp in Sources */,
+				1168C9C9184CBEB900766945 /* MaxPoints.cpp in Sources */,
 				11B4B2F9174A777600EA2EF5 /* LCP.cpp in Sources */,
 				11F42F8E1771EE6000CD5E7E /* 3Number.cpp in Sources */,
 				114291C71833B78200570FDA /* PalindromePartitionII.cpp in Sources */,
