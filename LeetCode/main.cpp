@@ -116,13 +116,14 @@
 #include "InsertionSort.h"
 #include "SortList.h"
 #include "MaxPoints.h"
+#include "RPN.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(MaxPoints);
+    REGISTER_CLASS(RPN);
     DemoFactory::getInstance()->run();
     return 0;
 }
