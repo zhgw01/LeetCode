@@ -20,6 +20,7 @@ public:
 private:
     void test1();
     
+    int ladderLength1(std::string start, std::string end, std::unordered_set<std::string> &dict);
     int ladderLength(std::string start, std::string end, std::unordered_set<std::string> &dict);
 
 };

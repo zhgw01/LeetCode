@@ -34,9 +34,51 @@ void WordLadder::test1()
     assert(result == 5);
 }
 
+int WordLadder::ladderLength(std::string start, std::string end, std::unordered_set<std::string> &dict)
+{
+    int result = 1;
+    
+    std::queue<string> words;
+    words.push(start);
+    
+    while (!words.empty()) {
+        size_t rowCount = words.size();
+        ++result;
+        
+        while (rowCount > 0) {
+            std::string word = words.front();
+            words.pop();
+            
+            for (size_t i = 0, iEnd = word.size(); i < iEnd; ++i) {
+                for (char c = 'a'; c <= 'z'; ++c) {
+                    string temp = word;
+                    temp[i] = c;
+                    
+                    if (temp == end) {
+                        return result;
+                    }
+                    
+                    if (dict.find(temp) != dict.end()) {
+                        words.push(temp);
+                        dict.erase(temp);
+                    }
+                }
+            }
+            
+            
+            --rowCount;
+        }
+        
+        
+        
+    }
+    
+    
+    return 0;
+}
 
 //Using BFS to find
-int WordLadder::ladderLength(std::string start, std::string end, std::unordered_set<std::string> &dict)
+int WordLadder::ladderLength1(std::string start, std::string end, std::unordered_set<std::string> &dict)
 {
     if (start.size() != end.size()) {
         return 0;
