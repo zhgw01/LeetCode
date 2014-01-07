@@ -27,6 +27,7 @@ private:
     void test3();
     
     vector<vector<string>> findLadders(string start, string end, unordered_set<string> &dict);
+    vector<vector<string>> findLadders2(string start, string end, unordered_set<string> &dict);
 
 };
 

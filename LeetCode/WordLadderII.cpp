@@ -10,13 +10,14 @@
 #include <queue>
 #include <unordered_map>
 #include <set>
+#include <string>
 
 using namespace std;
 
 void WordLadderII::run()
 {
     cout<<"Run WordLadderII"<<endl;
-    test3();
+    test2();
 }
 
 void WordLadderII::test1()
@@ -75,6 +76,103 @@ void WordLadderII::test3()
 
 }
 
+//DFS to find all the solution
+void solveLadder(string start, string end,
+                 unordered_set<string>& dict,
+                 vector<string>& path,
+                 vector<vector<string>>& paths,
+                 unordered_map<string, size_t>& levelMap)
+{
+    //try to find results at start
+    for (size_t i = 0, iEnd = start.length(); i < iEnd; ++i) {
+        for (char c = 'a'; c <= 'z'; ++c) {
+            string next_word = start;
+            
+            if (next_word[i] != c) {
+                next_word[i] = c;
+                
+                
+                if (dict.find(next_word) != dict.end()) {
+                    
+                    if (levelMap.find(next_word) == levelMap.end()
+                        || levelMap[next_word] != path.size() )
+                        continue;
+                    
+                    path.push_back(next_word);
+                    if (next_word == end)
+                        paths.push_back(path);
+                    else
+                        solveLadder(next_word, end, dict, path, paths, levelMap);
+                    path.pop_back();
+                }
+                else if (next_word == end) {
+                    path.push_back(next_word);
+                    paths.push_back(path);
+                    path.pop_back();
+                    
+                }
+                
+                
+            }
+        }
+    }
+    
+}
+
+//BFS to build level map
+void buildMap(string start, string end, unordered_set<string> dict, unordered_map<string, size_t>& levelMap)
+{
+    size_t levelCount = 0;
+    queue<string> words;
+    words.push(start);
+    dict.erase(start);
+    
+    while (!words.empty()) {
+        
+        size_t rowNumber = words.size();
+        
+        //Iterator on current level
+        for (size_t i = 0; i < rowNumber; ++i) {
+            string& word = words.front();
+            words.pop();
+            levelMap[word] = levelCount;
+            
+            for (size_t j = 0, jEnd = word.length(); j < jEnd; ++j) {
+                for (char c = 'a'; c <= 'z'; ++c) {
+                    string next = word;
+                    next[j] = c;
+                    
+                    if (dict.find(next) != dict.end()) {
+                        words.push(next);
+                        dict.erase(next);
+                    }
+                }
+            }
+        }
+        
+        ++levelCount;
+    }
+}
+
+//using backtracking
+vector<vector<string> > WordLadderII::findLadders(string start, string end, unordered_set<string> &dict)
+{
+    vector<vector<string>> result;
+    
+    if (start.size() != end.size() || start.empty() || end.empty()) {
+        return result;
+    }
+    
+    vector<string> path;
+    path.push_back(start);
+    dict.erase(start);
+    std::unordered_map<string, size_t> levelMap;
+    buildMap(start, end, dict, levelMap);
+    solveLadder(start, end, dict, path, result, levelMap);
+    
+    return result;
+}
+
 
 vector<vector<string> > buildPath(const unordered_map<string, set<string> > & pathMap, const string& end, const string& start)
 {
@@ -108,7 +206,7 @@ vector<vector<string> > buildPath(const unordered_map<string, set<string> > & pa
     return  paths;
 }
 
-vector<vector<string> > WordLadderII::findLadders(string start, string end, unordered_set<string> &dict)
+vector<vector<string> > WordLadderII::findLadders2(string start, string end, unordered_set<string> &dict)
 {
     vector<vector<string> > result;
     
