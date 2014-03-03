@@ -28,6 +28,18 @@ private:
     
     vector<vector<string>> findLadders(string start, string end, unordered_set<string> &dict);
     vector<vector<string>> findLadders2(string start, string end, unordered_set<string> &dict);
+    vector<vector<string>> findLadders3(string start, string end, unordered_set<string> &dict);
+    
+    
+    struct NodeMap {
+        string word;
+        int level;
+        vector<std::shared_ptr<NodeMap>> parents;
+        
+        NodeMap(const string& w, int l) : word(w), level(l) {}
+    };
+
+    void generatePath(const std::shared_ptr<NodeMap>& node, size_t index, vector<vector<string>>& result);
 
 };
 

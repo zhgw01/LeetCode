@@ -17,7 +17,7 @@ using namespace std;
 void WordLadderII::run()
 {
     cout<<"Run WordLadderII"<<endl;
-    test2();
+    test3();
 }
 
 void WordLadderII::test1()
@@ -74,6 +74,102 @@ void WordLadderII::test3()
     
     assert(result.size() == 3);
 
+}
+
+void WordLadderII::generatePath(const std::shared_ptr<NodeMap>& node, size_t index, vector<vector<string>>& result)
+{
+    if (!node) {
+        return;
+    }
+    
+    vector<string>& path = result[index];
+    assert(path.size() > node->level);
+    path[node->level] = node->word;
+    
+
+    for (size_t i = 0, iEnd = node->parents.size(); i < iEnd; ++i) {
+        size_t next_index = index;
+        
+        if (i > 0) {
+            result.push_back(vector<string>(path.begin(), path.end()));
+            next_index = result.size() - 1;
+        }
+        
+        generatePath(node->parents[i], next_index, result);
+    }
+    
+}
+
+vector<vector<string> > WordLadderII::findLadders(string start, string end, unordered_set<string> &dict)
+{
+    
+    vector<vector<string>> result;
+    
+    if (start.size() != end.size() || start.empty() || end.empty()) {
+        return result;
+    }
+    
+    
+    int level = 0;
+    std::shared_ptr<NodeMap> root = std::make_shared<NodeMap>(start, level);
+    std::shared_ptr<NodeMap> leaf = nullptr;
+    
+    std::queue<std::shared_ptr<NodeMap>> words;
+    words.push(root);
+    dict.erase(root->word);
+    
+    while (!words.empty() && !leaf) {
+        size_t rowCount = words.size();
+        ++level;
+        
+        vector<string> to_remove;
+        std::unordered_map<string, shared_ptr<NodeMap>> wordMap;
+        
+        while (rowCount > 0) {
+            std::shared_ptr<NodeMap> node = words.front();
+            std::string word = node->word;
+            words.pop();
+            
+            for (size_t i = 0, iEnd = word.size(); i < iEnd; ++i) {
+                for (char c = 'a'; c <= 'z'; ++c) {
+                    string temp = word;
+                    temp[i] = c;
+                    
+                    if (temp == end) {
+                        if (!leaf) {
+                            leaf = std::make_shared<NodeMap>(end, level);
+                        }
+
+                        leaf->parents.push_back(node);
+                    }
+                    else if (dict.find(temp) != dict.end()) {
+                        if (wordMap.find(temp) == wordMap.end()) {
+                            wordMap[temp] = std::make_shared<NodeMap>(temp, level);
+                            words.push(wordMap[temp]);
+                        }
+                        wordMap[temp]->parents.push_back(node);
+                        to_remove.push_back(temp);
+                    }
+                }
+            }
+            
+            --rowCount;
+        }
+        
+        for_each(to_remove.begin(), to_remove.end(), [&dict](const string& s){
+            dict.erase(s);
+        });
+        
+    }
+    
+    //build the path
+    if (leaf) {
+        result.push_back(vector<string>(leaf->level + 1));
+        generatePath(leaf, 0, result);
+    }
+    
+    
+    return result;
 }
 
 //DFS to find all the solution
@@ -155,7 +251,7 @@ void buildMap(string start, string end, unordered_set<string> dict, unordered_ma
 }
 
 //using backtracking
-vector<vector<string> > WordLadderII::findLadders(string start, string end, unordered_set<string> &dict)
+vector<vector<string> > WordLadderII::findLadders3(string start, string end, unordered_set<string> &dict)
 {
     vector<vector<string>> result;
     
