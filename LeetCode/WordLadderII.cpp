@@ -17,6 +17,8 @@ using namespace std;
 void WordLadderII::run()
 {
     cout<<"Run WordLadderII"<<endl;
+    test1();
+    test2();
     test3();
 }
 
@@ -76,100 +78,130 @@ void WordLadderII::test3()
 
 }
 
-void WordLadderII::generatePath(const std::shared_ptr<NodeMap>& node, size_t index, vector<vector<string>>& result)
-{
-    if (!node) {
-        return;
-    }
-    
-    vector<string>& path = result[index];
-    assert(path.size() > node->level);
-    path[node->level] = node->word;
-    
 
-    for (size_t i = 0, iEnd = node->parents.size(); i < iEnd; ++i) {
-        size_t next_index = index;
+void WordLadderII::generatePath( const GraphNode* const node, int index, vector<vector<string>>& result )
+{
+    if (!node)
+        return;
+    
+    result[index][node->level] = node->word;
+    
+    for (size_t i = 0, iEnd = node->parents.size(); i < iEnd; ++i)
+    {
+        int next_index = index;
         
-        if (i > 0) {
-            result.push_back(vector<string>(path.begin(), path.end()));
-            next_index = result.size() - 1;
+        if (i > 0)
+        {
+            result.push_back(result[index]);
+            next_index = static_cast<int>(result.size()) - 1;
         }
         
         generatePath(node->parents[i], next_index, result);
     }
-    
 }
 
-vector<vector<string> > WordLadderII::findLadders(string start, string end, unordered_set<string> &dict)
+GraphNode* WordLadderII::createGraph(string start, string end, unordered_set<string>& dict,  vector<GraphNode*>& nodes)
 {
-    
-    vector<vector<string>> result;
-    
-    if (start.size() != end.size() || start.empty() || end.empty()) {
-        return result;
-    }
-    
+    dict.erase(start);
+    dict.erase(end);
     
     int level = 0;
-    std::shared_ptr<NodeMap> root = std::make_shared<NodeMap>(start, level);
-    std::shared_ptr<NodeMap> leaf = nullptr;
+    GraphNode* startNode = new GraphNode(start, level);
+    GraphNode* endNode = nullptr;
     
-    std::queue<std::shared_ptr<NodeMap>> words;
-    words.push(root);
-    dict.erase(root->word);
+    //BFS search
+    queue<GraphNode*> row;
+    row.push(startNode);
     
-    while (!words.empty() && !leaf) {
-        size_t rowCount = words.size();
+    while (!row.empty() && !endNode)
+    {
+        size_t rowCount = row.size();
+        
         ++level;
-        
         vector<string> to_remove;
-        std::unordered_map<string, shared_ptr<NodeMap>> wordMap;
-        
-        while (rowCount > 0) {
-            std::shared_ptr<NodeMap> node = words.front();
-            std::string word = node->word;
-            words.pop();
+        unordered_map<string, GraphNode*> word_node;
+        while (rowCount-- >  0)
+        {
+            GraphNode* node = row.front();
+            row.pop();
+            string word = node->word;
             
-            for (size_t i = 0, iEnd = word.size(); i < iEnd; ++i) {
-                for (char c = 'a'; c <= 'z'; ++c) {
-                    string temp = word;
-                    temp[i] = c;
-                    
-                    if (temp == end) {
-                        if (!leaf) {
-                            leaf = std::make_shared<NodeMap>(end, level);
+            for (int i = 0, iEnd = word.size(); i < iEnd; ++i)
+            {
+                for (char c = 'a'; c <= 'z'; ++c)
+                {
+                    if (word[i] != c)
+                    {
+                        //generate a new word
+                        string temp = word;
+                        temp[i] = c;
+                        
+                        if (temp == end)
+                        {
+                            if (!endNode) {
+                                endNode = new GraphNode(end, level);
+                                nodes.push_back(endNode);
+                            }
+                            
+                            endNode->parents.push_back(node);
                         }
-
-                        leaf->parents.push_back(node);
-                    }
-                    else if (dict.find(temp) != dict.end()) {
-                        if (wordMap.find(temp) == wordMap.end()) {
-                            wordMap[temp] = std::make_shared<NodeMap>(temp, level);
-                            words.push(wordMap[temp]);
+                        //possible solution
+                        else if (dict.find(temp) != dict.end())
+                        {
+                            if (word_node.find(temp) == word_node.end())
+                            {
+                                GraphNode* new_node = new GraphNode(temp, level);
+                                nodes.push_back(new_node);
+                                
+                                word_node[temp] = new_node;
+                                row.push(new_node);
+                                to_remove.push_back(temp);
+                            }
+                            
+                            word_node[temp]->parents.push_back(node);
                         }
-                        wordMap[temp]->parents.push_back(node);
-                        to_remove.push_back(temp);
+                        
                     }
                 }
             }
-            
-            --rowCount;
         }
         
-        for_each(to_remove.begin(), to_remove.end(), [&dict](const string& s){
-            dict.erase(s);
+        //remove visited items in current row from  dictionary
+        for_each(to_remove.begin(), to_remove.end(), [&dict](const string& item){
+            dict.erase(item);
         });
         
     }
     
-    //build the path
-    if (leaf) {
-        result.push_back(vector<string>(leaf->level + 1));
-        generatePath(leaf, 0, result);
+    return endNode;
+}
+
+
+
+vector<vector<string> > WordLadderII::findLadders(string start, string end, unordered_set<string> &dict)
+{
+    vector<vector<string>> result;
+    
+    
+    if (start.size() != end.size() || start.empty())
+        return result;
+    
+    vector<GraphNode*> nodes;
+    GraphNode* root = createGraph(start, end, dict, nodes);
+    
+    if (root)
+    {
+        vector<string> path(root->level + 1);
+        result.push_back(path);
+        generatePath(root, 0, result);
+        
+        for_each(nodes.begin(), nodes.end(), [](GraphNode* node){
+            delete node;
+        });
     }
     
-    
     return result;
+    
 }
 
 //DFS to find all the solution

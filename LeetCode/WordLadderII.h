@@ -16,6 +16,15 @@ using std::vector;
 using std::string;
 using std::unordered_set;
 
+struct GraphNode
+{
+    GraphNode(const std::string& w, int l) : word(w), level(l){}
+    
+    std::string word;
+    int level;
+    std::vector<GraphNode *> parents;
+};
+
 class WordLadderII : public IRun
 {
 public:
@@ -31,15 +40,9 @@ private:
     vector<vector<string>> findLadders3(string start, string end, unordered_set<string> &dict);
     
     
-    struct NodeMap {
-        string word;
-        int level;
-        vector<std::shared_ptr<NodeMap>> parents;
-        
-        NodeMap(const string& w, int l) : word(w), level(l) {}
-    };
-
-    void generatePath(const std::shared_ptr<NodeMap>& node, size_t index, vector<vector<string>>& result);
+    GraphNode* createGraph(string start, string end, unordered_set<string>& dict,  vector<GraphNode*>& nodes);
+    void generatePath( const GraphNode* const node, int index, vector<vector<string>>& result );
+    
 
 };
 
