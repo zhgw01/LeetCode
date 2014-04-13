@@ -13,7 +13,8 @@ using namespace std;
 void ValidPalindrome::run()
 {
     cout<<"Run ValidPalindrome"<<endl;
-    test1();
+    //test1();
+    test2();
 }
 
 void ValidPalindrome::test1()
@@ -25,21 +26,12 @@ void ValidPalindrome::test1()
     assert(result == true);
 }
 
-bool isalhanumeric(char c)
+void ValidPalindrome::test2()
 {
-    if ('a' <= c && c <= 'z') {
-        return true;
-    }
+    string s("a");
+    bool result = isPalindrome(s);
     
-    if ('A' <= c && c <= 'Z') {
-        return true;
-    }
-    
-    if ('0' <= c && c <= '9') {
-        return true;
-    }
-    
-    return false;
+    assert(result == true);
 }
 
 bool ValidPalindrome::isPalindrome(std::string s)
@@ -48,26 +40,27 @@ bool ValidPalindrome::isPalindrome(std::string s)
         return true;
     }
     
-    int i = 0;
-    int j = s.size() - 1;
+    int start = 0;
+    int end = static_cast<int>(s.length()) - 1;
     
-    while (i <= j) {
-        if (!isalhanumeric(s[i])) {
-            ++i;
-            continue;
+    while (start <= end) {
+        if (!isalnum(s[start]))
+        {
+            ++start;
         }
-        
-        if (!isalhanumeric(s[j])) {
-            --j;
-            continue;
+        else if(!isalnum(s[end]))
+        {
+            --end;
         }
-        
-        if (tolower(s[i]) != tolower(s[j])) {
+        else if(tolower(s[start]) != tolower(s[end]))
+        {
             return false;
         }
-        
-        ++i;
-        --j;
+        else
+        {
+            ++start;
+            --end;
+        }
     }
     
     return true;

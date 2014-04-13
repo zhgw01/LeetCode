@@ -18,6 +18,7 @@ public:
 
 private:
     void test1();
+    void test2();
 
     bool isPalindrome(std::string s);
 };
