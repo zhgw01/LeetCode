@@ -44,8 +44,41 @@ void StockIII::test2()
     assert(result == expect);
 }
 
-
 int StockIII::maxProfit(std::vector<int> &prices)
+{
+    size_t num = prices.size();
+    
+    std::vector<int> historyProfit(num, 0);
+    std::vector<int> futureProfit(num, 0);
+    
+    size_t minIndex = 0;
+    for (size_t i = 0; i < num; ++i) {
+        if (prices[i] < prices[minIndex]) {
+            minIndex = i;
+        }
+        
+        historyProfit[i] = prices[i] - prices[minIndex];
+    }
+    
+    size_t maxIndex = num - 1;
+    for (int i = static_cast<int>(num - 2); i >= 0; --i) {
+   
+        if (prices[maxIndex] < prices[i]) {
+            maxIndex = i;
+        }
+        
+        futureProfit[i] = max(futureProfit[i+1], prices[maxIndex] - prices[i]);
+    }
+    
+    int result = 0;
+    for (size_t i = 0; i < num; ++i) {
+        result = max(result, historyProfit[i] + futureProfit[i]);
+    }
+
+    return result;
+}
+
+int StockIII::maxProfit2(std::vector<int> &prices)
 {
     
     if (prices.size() < 1) {

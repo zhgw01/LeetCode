@@ -21,6 +21,7 @@ private:
     void test2();
 
     int maxProfit(std::vector<int> &prices);
+    int maxProfit2(std::vector<int> &prices);
 };
 
 #endif /* defined(__LeetCode__StockIII__) */
