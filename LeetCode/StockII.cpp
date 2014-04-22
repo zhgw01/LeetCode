@@ -19,8 +19,28 @@ void StockII::test1()
 {
 }
 
-
 int StockII::maxProfit(std::vector<int> &prices)
+{
+    int result = 0;
+    
+    size_t buyIndex = 0;
+    size_t totalNumber = prices.size();
+    
+    while (buyIndex + 1 < totalNumber) {
+        if (prices[buyIndex + 1] > prices[buyIndex]) {
+            result += prices[buyIndex + 1] - prices[buyIndex];
+        }
+        
+        ++buyIndex;
+    }
+    
+    
+    return result;
+    
+}
+
+
+int StockII::maxProfit2(std::vector<int> &prices)
 {
     int sum = 0;
     
