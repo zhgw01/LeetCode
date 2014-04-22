@@ -18,8 +18,10 @@ public:
 
 private:
     void test1();
+    void test2();
 
     int maxProfit(std::vector<int> &prices);
+    int maxProfit2(std::vector<int> &prices);
 };
 
 #endif /* defined(__LeetCode__Stock__) */

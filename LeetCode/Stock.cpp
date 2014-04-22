@@ -13,7 +13,7 @@ using namespace std;
 void Stock::run()
 {
     cout<<"Run Stock"<<endl;
-    test1();
+    test2();
 }
 
 void Stock::test1()
@@ -28,8 +28,44 @@ void Stock::test1()
     assert(result == expected);
 }
 
+void Stock::test2()
+{
+    vector<int> prices = {6,1,3,2,4,7};
+    
+    int result = maxProfit(prices);
+    int expected = 6;
+    
+    assert(result == expected);
+}
 
 int Stock::maxProfit(std::vector<int> &prices)
+{
+    int result = 0;
+    
+    size_t minIndex = 0;
+    size_t maxIndex = 0;
+    
+    for (size_t i = 0, iEnd = prices.size(); i < iEnd; ++i) {
+        if (prices[i] < prices[minIndex]) {
+            
+            result = max(result, prices[maxIndex] - prices[minIndex]);
+            
+            minIndex = maxIndex = i;
+        }
+        else if(prices[i] > prices[maxIndex]) {
+            maxIndex = i;
+        }
+    }
+    
+    if (maxIndex < prices.size()) {
+        result = max(result, prices[maxIndex] - prices[minIndex]);
+    }
+    
+    
+    return result;
+}
+
+int Stock::maxProfit2(std::vector<int> &prices)
 {
     if (prices.size() < 2) {
         return 0;
