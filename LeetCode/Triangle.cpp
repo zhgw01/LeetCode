@@ -56,6 +56,40 @@ void Triangle::test2()
 
 int Triangle::minimumTotal(vector<vector<int> > &triangle)
 {
+    size_t rows = triangle.size();
+    
+    if (rows == 0) {
+        return 0;
+    }
+    
+    vector<int> sums(rows, 0);
+    
+    //Initialize column 0
+    sums[0] = triangle[0][0];
+    
+    for (size_t row = 1; row < rows; ++row) {
+        sums[row] = sums[row - 1] + triangle[row][row];
+        
+        for (size_t col = row - 1; col > 0 ; --col) {
+            sums[col] = min(sums[col - 1], sums[col]) + triangle[row][col];
+        }
+        
+        sums[0] += triangle[row][0];
+    }
+    
+    // find minium
+    int result = sums[0];
+    for(size_t i = 1; i < rows; ++i) {
+        if (sums[i] < result) {
+            result = sums[i];
+        }
+    }
+    
+    return result;
+}
+
+int Triangle::minimumTotal2(vector<vector<int> > &triangle)
+{
     size_t numRows = triangle.size();
     if (numRows <= 0) {
         return 0;

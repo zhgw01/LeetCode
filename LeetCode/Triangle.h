@@ -23,6 +23,7 @@ private:
     void test2();
 
     int minimumTotal(vector<vector<int> > &triangle);
+    int minimumTotal2(vector<vector<int> > &triangle);
 };
 
 #endif /* defined(__LeetCode__Triangle__) */
