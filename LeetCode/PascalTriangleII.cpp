@@ -13,12 +13,34 @@ using namespace std;
 void PascalTriangleII::run()
 {
     cout<<"Run PascalTriangleII"<<endl;
+    test1();
 }
 
 void PascalTriangleII::test1()
 {
+    int row = 3;
+    vector<int> expected = {1, 3, 3, 1};
+    
+    vector<int> result = getRow(row);
+    assert(result == expected);
 }
 
+
+std::vector<int> PascalTriangleII::getRow(int rowIndex)
+{
+    if (rowIndex < 0) {
+        return vector<int>();
+    }
+    
+    vector<int> result(rowIndex + 1, 1);
+    for (int row = 1; row <= rowIndex; ++row) {
+        for (int col = row - 1; col > 0; --col) {
+            result[col] += result[col - 1];
+        }
+    }
+    
+    return result;
+}
 
 std::vector<int> PascalTriangleII::getRow2(int rowIndex)
 {
@@ -35,7 +57,7 @@ std::vector<int> PascalTriangleII::getRow2(int rowIndex)
 }
 
 
-std::vector<int> PascalTriangleII::getRow(int rowIndex)
+std::vector<int> PascalTriangleII::getRow3(int rowIndex)
 {
     vector<int> firstRow(1,1);
     vector<int> sencondRow(1,1);

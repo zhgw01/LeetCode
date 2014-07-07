@@ -21,6 +21,7 @@ private:
 
     std::vector<int> getRow(int rowIndex);
     std::vector<int> getRow2(int rowIndex);
+    std::vector<int> getRow3(int rowIndex);
 };
 
 #endif /* defined(__LeetCode__PascalTriangleII__) */

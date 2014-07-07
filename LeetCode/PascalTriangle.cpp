@@ -13,14 +13,35 @@ using namespace std;
 void PascalTriangle::run()
 {
     cout<<"Run PascalTriangle"<<endl;
+    test1();
 }
 
 void PascalTriangle::test1()
 {
+    int rows = 3;
+    vector<vector<int>> result = generate(rows);
+    
+    assert(result.size() == 3);
+}
+
+//Rewrite 2014-7-7
+vector<vector<int>> PascalTriangle::generate(int numRows)
+{
+    vector<vector<int>> result;
+    
+    for (int row = 0; row < numRows; ++row) {
+        result.push_back(vector<int>(row + 1, 1));
+        
+        for (int col = 1; col < row; ++col) {
+            result[row][col] = result[row - 1][col - 1] + result[row - 1][col];
+        }
+    }
+    
+    return result;
 }
 
 
-vector<vector<int> > PascalTriangle::generate(int numRows)
+vector<vector<int> > PascalTriangle::generate2(int numRows)
 {
     vector<vector<int> > result;
     if (numRows < 1) {

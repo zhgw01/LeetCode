@@ -22,6 +22,8 @@ private:
     void test1();
 
     vector<vector<int> > generate(int numRows);
+    vector<vector<int> > generate2(int numRows);
+
 };
 
 #endif /* defined(__LeetCode__PascalTriangle__) */
