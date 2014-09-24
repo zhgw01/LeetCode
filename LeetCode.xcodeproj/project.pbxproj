@@ -49,6 +49,7 @@
 		113DD4931787E15E00D6623C /* SearchRSA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 113DD4911787E15E00D6623C /* SearchRSA.cpp */; };
 		113DD49617881F7900D6623C /* SearchRange.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 113DD49417881F7900D6623C /* SearchRange.cpp */; };
 		113DD499178824BA00D6623C /* SearchInsertPosition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 113DD497178824BA00D6623C /* SearchInsertPosition.cpp */; };
+		1141934B19D2F09F00CF2DF0 /* MultipleNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1141934919D2F09F00CF2DF0 /* MultipleNumber.cpp */; };
 		114291C71833B78200570FDA /* PalindromePartitionII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 114291C51833B78200570FDA /* PalindromePartitionII.cpp */; };
 		114CD9AF1779D6AF009F86BB /* MergeKList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 114CD9AD1779D6AF009F86BB /* MergeKList.cpp */; };
 		114EC2C517A1658000C7E7C5 /* RotateImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 114EC2C317A1658000C7E7C5 /* RotateImage.cpp */; };
@@ -79,6 +80,7 @@
 		119580801775507E0035071E /* PhoneNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1195807E1775507E0035071E /* PhoneNumber.cpp */; };
 		11A3983F177D8BF70048555B /* ReverseKNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11A3983D177D8BF70048555B /* ReverseKNode.cpp */; };
 		11A39842177D92DE0048555B /* ListNodeUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11A39840177D92DE0048555B /* ListNodeUtil.cpp */; };
+		11A3DBF418CC4B5C0047F2F9 /* ReverseWords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11A3DBF218CC4B5C0047F2F9 /* ReverseWords.cpp */; };
 		11A48E8517E46CCD0088471D /* StockII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11A48E8317E46CCD0088471D /* StockII.cpp */; };
 		11A48E8817E46FAD0088471D /* StockIII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11A48E8617E46FAD0088471D /* StockIII.cpp */; };
 		11A48E8B17E47A460088471D /* ValidPalindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11A48E8917E47A460088471D /* ValidPalindrome.cpp */; };
@@ -223,6 +225,8 @@
 		113DD49517881F7900D6623C /* SearchRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchRange.h; sourceTree = "<group>"; };
 		113DD497178824BA00D6623C /* SearchInsertPosition.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SearchInsertPosition.cpp; sourceTree = "<group>"; };
 		113DD498178824BA00D6623C /* SearchInsertPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchInsertPosition.h; sourceTree = "<group>"; };
+		1141934919D2F09F00CF2DF0 /* MultipleNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MultipleNumber.cpp; sourceTree = "<group>"; };
+		1141934A19D2F09F00CF2DF0 /* MultipleNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleNumber.h; sourceTree = "<group>"; };
 		114291C51833B78200570FDA /* PalindromePartitionII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PalindromePartitionII.cpp; sourceTree = "<group>"; };
 		114291C61833B78200570FDA /* PalindromePartitionII.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PalindromePartitionII.h; sourceTree = "<group>"; };
 		114CD9AD1779D6AF009F86BB /* MergeKList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeKList.cpp; sourceTree = "<group>"; };
@@ -283,6 +287,8 @@
 		11A3983E177D8BF70048555B /* ReverseKNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReverseKNode.h; sourceTree = "<group>"; };
 		11A39840177D92DE0048555B /* ListNodeUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ListNodeUtil.cpp; sourceTree = "<group>"; };
 		11A39841177D92DE0048555B /* ListNodeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListNodeUtil.h; sourceTree = "<group>"; };
+		11A3DBF218CC4B5C0047F2F9 /* ReverseWords.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseWords.cpp; sourceTree = "<group>"; };
+		11A3DBF318CC4B5C0047F2F9 /* ReverseWords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReverseWords.h; sourceTree = "<group>"; };
 		11A48E8317E46CCD0088471D /* StockII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StockII.cpp; sourceTree = "<group>"; };
 		11A48E8417E46CCD0088471D /* StockII.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockII.h; sourceTree = "<group>"; };
 		11A48E8617E46FAD0088471D /* StockIII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StockIII.cpp; sourceTree = "<group>"; };
@@ -506,6 +512,8 @@
 				11712887183E4C9800DEE5E0 /* WordBreak.h */,
 				11110CE4183F838C006F7CDD /* WordBreakII.cpp */,
 				11110CE5183F838C006F7CDD /* WordBreakII.h */,
+				11A3DBF218CC4B5C0047F2F9 /* ReverseWords.cpp */,
+				11A3DBF318CC4B5C0047F2F9 /* ReverseWords.h */,
 			);
 			name = String;
 			sourceTree = "<group>";
@@ -544,6 +552,8 @@
 				1138278C17A4B0A800D52A90 /* InsertInterval.h */,
 				11215EF8183A49F1009B91A4 /* Candy.cpp */,
 				11215EF9183A49F1009B91A4 /* Candy.h */,
+				1141934919D2F09F00CF2DF0 /* MultipleNumber.cpp */,
+				1141934A19D2F09F00CF2DF0 /* MultipleNumber.h */,
 			);
 			name = Array;
 			sourceTree = "<group>";
@@ -816,6 +826,7 @@
 				11B4B2F9174A777600EA2EF5 /* LCP.cpp in Sources */,
 				11F42F8E1771EE6000CD5E7E /* 3Number.cpp in Sources */,
 				114291C71833B78200570FDA /* PalindromePartitionII.cpp in Sources */,
+				1141934B19D2F09F00CF2DF0 /* MultipleNumber.cpp in Sources */,
 				1151DF4E17733FFF004DFA95 /* 3SumClosest.cpp in Sources */,
 				118E5072177493ED004D75CD /* 4Sum.cpp in Sources */,
 				119580801775507E0035071E /* PhoneNumber.cpp in Sources */,
@@ -897,6 +908,7 @@
 				115096F51841BF7C00875625 /* ReorderList.cpp in Sources */,
 				1128AF1A17C88AC6001136D8 /* Array2BST.cpp in Sources */,
 				11F70B7C17C8AC9500872A66 /* SortedList2BST.cpp in Sources */,
+				11A3DBF418CC4B5C0047F2F9 /* ReverseWords.cpp in Sources */,
 				112AF2281836595700EA9452 /* CloneGraph.cpp in Sources */,
 				11F70B7F17C8B16A00872A66 /* FlattenBST.cpp in Sources */,
 				11F70B8217C8B53400872A66 /* BTPathSum.cpp in Sources */,

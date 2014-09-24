@@ -118,13 +118,14 @@
 #include "MaxPoints.h"
 #include "RPN.h"
 #include "ReverseWords.h"
+#include "MultipleNumber.h"
 
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Start To Run Demo!\n";
-    REGISTER_CLASS(PascalTriangleII);
+    REGISTER_CLASS(MultipleNumber);
     DemoFactory::getInstance()->run();
     return 0;
 }
