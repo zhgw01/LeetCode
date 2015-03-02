@@ -1,6 +1,4 @@
 #include "stdafx.h"
-#include "LeetCode.h"
-#include "CppUnitTest.h"
 #include "Pascal.h"
 #include <vector>
 
