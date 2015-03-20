@@ -33,3 +33,17 @@ int RotateSortArray::findMin(std::vector<int> &num)
 
     return num[l];
 }
+
+int RotateSortArray::findMinWithDuplicate(std::vector<int> &num)
+{
+    assert(num.size() > 0);
+
+    int l = 0, h = num.size() - 1;
+
+    while (l < h && num[l] >= num[h])
+    {
+        ++l;
+    }
+
+    return num[l];
+}

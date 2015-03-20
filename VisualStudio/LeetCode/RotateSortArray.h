@@ -9,5 +9,6 @@ public:
     ~RotateSortArray(void);
 
     int findMin(std::vector<int> &num);
+    int findMinWithDuplicate(std::vector<int> &num);
 };
 

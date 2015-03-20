@@ -46,5 +46,29 @@ namespace LeetCodeTest
             Assert::IsTrue(result == expected);
         }
 
+        TEST_METHOD(testMiniumDuplicate)
+        {
+            RotateSortArray array;
+
+            int num[] = {3,1,3};
+            std::vector<int> numVector(num, num + sizeof(num)/sizeof(*num));
+            int expected = 1;
+
+            int result = array.findMinWithDuplicate(numVector);
+            Assert::IsTrue(result == expected);
+        }
+
+        TEST_METHOD(testMiniumDuplicate10)
+        {
+            RotateSortArray array;
+
+            int num[] = {10,1,10,10,10};
+            std::vector<int> numVector(num, num + sizeof(num)/sizeof(*num));
+            int expected = 1;
+
+            int result = array.findMinWithDuplicate(numVector);
+            Assert::IsTrue(result == expected);
+        }
+
     };
 }
