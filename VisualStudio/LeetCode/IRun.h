@@ -4,6 +4,6 @@
 class LEETCODE_API IRun
 {
 public:
-    virtual void run() = 0;
+    virtual void run() {};
 };
 
