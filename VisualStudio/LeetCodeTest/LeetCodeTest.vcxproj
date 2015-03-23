@@ -92,6 +92,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MaxProductTest.cpp" />
+    <ClCompile Include="MinStackTest.cpp" />
     <ClCompile Include="PascalTest.cpp" />
     <ClCompile Include="RotateSortArrayTest.cpp" />
     <ClCompile Include="stdafx.cpp">

@@ -80,6 +80,7 @@
     <ClInclude Include="IRun.h" />
     <ClInclude Include="LeetCode.h" />
     <ClInclude Include="MaxProduct.h" />
+    <ClInclude Include="MinStack.h" />
     <ClInclude Include="Pascal.h" />
     <ClInclude Include="RotateSortArray.h" />
     <ClInclude Include="stdafx.h" />
@@ -90,6 +91,7 @@
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="MaxProduct.cpp" />
+    <ClCompile Include="MinStack.cpp" />
     <ClCompile Include="Pascal.cpp" />
     <ClCompile Include="RotateSortArray.cpp" />
     <ClCompile Include="stdafx.cpp">
