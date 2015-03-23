@@ -77,6 +77,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="IntersectionList.h" />
     <ClInclude Include="IRun.h" />
     <ClInclude Include="LeetCode.h" />
     <ClInclude Include="MaxProduct.h" />
@@ -89,6 +90,7 @@
     <ClInclude Include="WordLadderII.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="IntersectionList.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="MaxProduct.cpp" />
     <ClCompile Include="MinStack.cpp" />

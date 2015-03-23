@@ -10,7 +10,7 @@ namespace LeetCodeTest
     {
     public:
         
-        TEST_METHOD(TestMinStack)
+        TEST_METHOD(testMinStack)
         {
             MinStack s;
 
