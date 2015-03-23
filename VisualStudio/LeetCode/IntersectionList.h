@@ -8,6 +8,10 @@ public:
     IntersectionList(void);
     ~IntersectionList(void);
 
-    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB);
+    ListNode* getIntersectionNode(ListNode *headA, ListNode *headB);
+
+protected:
+    int getListSize(ListNode* head);
+    ListNode* advanceList(ListNode* head, int step);
 };
 

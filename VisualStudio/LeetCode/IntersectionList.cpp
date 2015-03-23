@@ -13,43 +13,20 @@ IntersectionList::~IntersectionList(void)
 
 ListNode * IntersectionList::getIntersectionNode(ListNode *headA, ListNode *headB)
 {
-    int aSize = 0;
-    int bSize = 0;
+    int aSize = getListSize(headA);
+    int bSize = getListSize(headB);
 
-    ListNode* node = headA;
-    while (node)
-    {
-        ++aSize;
-        node = node->next;
-    }
-
-    node = headB;
-    while (node)
-    {
-        ++bSize;
-        node = node->next;
-    }
-
+    int step = aSize - bSize;
     ListNode* newHeadA = headA;
     ListNode* newHeadB = headB;
-    int step = aSize - bSize;
 
     if (step > 0)
     {
-        while (step > 0 && newHeadA)
-        {
-            newHeadA = newHeadA->next;
-            --step;
-        }
+        newHeadA = advanceList(newHeadA, step);
     }
     else
     {
-        step = -step;
-        while (step > 0 && newHeadB)
-        {
-            newHeadB = newHeadB->next;
-            --step;
-        }
+        newHeadB = advanceList(newHeadB, -step);
     }
 
     while (newHeadA && newHeadB)
@@ -72,4 +49,30 @@ ListNode * IntersectionList::getIntersectionNode(ListNode *headA, ListNode *head
 
     assert(newHeadA == newHeadB);
     return newHeadA;
+}
+
+int IntersectionList::getListSize(ListNode* head)
+{
+    int size = 0;
+
+    ListNode* node = head;
+    while (node)
+    {
+        ++size;
+        node = node->next;
+    }
+
+    return size;
+}
+
+ListNode* IntersectionList::advanceList(ListNode* head, int step)
+{
+    ListNode* node = head;
+    while(step > 0 && node)
+    {
+        node = node->next;
+        --step;
+    }
+
+    return node;
 }
