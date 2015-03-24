@@ -54,6 +54,9 @@
     <ClInclude Include="PeakNumber.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="MaximumGap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -84,6 +87,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="PeakNumber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MaximumGap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

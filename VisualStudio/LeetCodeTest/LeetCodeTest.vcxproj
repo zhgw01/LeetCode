@@ -94,6 +94,7 @@
   <ItemGroup>
     <ClCompile Include="IntersectionListTest.cpp" />
     <ClCompile Include="ListUtil.cpp" />
+    <ClCompile Include="MaximumGapTest.cpp" />
     <ClCompile Include="MaxProductTest.cpp" />
     <ClCompile Include="MinStackTest.cpp" />
     <ClCompile Include="PascalTest.cpp" />
