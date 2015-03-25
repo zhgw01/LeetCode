@@ -92,6 +92,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Fraction2DecimalTest.cpp" />
     <ClCompile Include="IntersectionListTest.cpp" />
     <ClCompile Include="ListUtil.cpp" />
     <ClCompile Include="MaximumGapTest.cpp" />
