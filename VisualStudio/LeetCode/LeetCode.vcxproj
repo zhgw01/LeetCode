@@ -81,6 +81,7 @@
     <ClInclude Include="IntersectionList.h" />
     <ClInclude Include="IRun.h" />
     <ClInclude Include="LeetCode.h" />
+    <ClInclude Include="MajorityElement.h" />
     <ClInclude Include="MaximumGap.h" />
     <ClInclude Include="MaxProduct.h" />
     <ClInclude Include="MinStack.h" />
@@ -96,6 +97,7 @@
     <ClCompile Include="Fraction2Decimal.cpp" />
     <ClCompile Include="IntersectionList.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MajorityElement.cpp" />
     <ClCompile Include="MaximumGap.cpp" />
     <ClCompile Include="MaxProduct.cpp" />
     <ClCompile Include="MinStack.cpp" />
