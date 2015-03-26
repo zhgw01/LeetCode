@@ -15,11 +15,11 @@ namespace LeetCodeTest
         {
             int a[] = {1, 2, 3, 4, 5};
             int aSize = sizeof(a) / sizeof(*a);
-            ListNode* headA = ListUtil::createFromArray(a, aSize);
+            ListNode* headA = ListUtil::createList(a, aSize);
 
             int b[] = {11, 12};
             int bSize = sizeof(b) / sizeof(*b);
-            ListNode* headB = ListUtil::createFromArray(b, bSize);
+            ListNode* headB = ListUtil::createList(b, bSize);
 
             ListNode* expected = headA->next->next;
             headB->next->next = expected;

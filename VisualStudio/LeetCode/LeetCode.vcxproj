@@ -77,6 +77,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BSTIterator.h" />
     <ClInclude Include="Fraction2Decimal.h" />
     <ClInclude Include="IntersectionList.h" />
     <ClInclude Include="IRun.h" />
@@ -91,9 +92,11 @@
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="StlAlgorithm.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="TrailingZero.h" />
     <ClInclude Include="WordLadderII.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BSTIterator.cpp" />
     <ClCompile Include="Fraction2Decimal.cpp" />
     <ClCompile Include="IntersectionList.cpp" />
     <ClCompile Include="Main.cpp" />
@@ -109,6 +112,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="StlAlgorithm.cpp" />
+    <ClCompile Include="TrailingZero.cpp" />
     <ClCompile Include="WordLadderII.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

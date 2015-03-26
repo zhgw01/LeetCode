@@ -92,6 +92,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BSTIteratorTest.cpp" />
     <ClCompile Include="Fraction2DecimalTest.cpp" />
     <ClCompile Include="IntersectionListTest.cpp" />
     <ClCompile Include="ListUtil.cpp" />
@@ -106,6 +107,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="TrailingZeroTest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LeetCode\LeetCode.vcxproj">

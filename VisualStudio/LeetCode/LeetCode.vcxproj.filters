@@ -63,6 +63,12 @@
     <ClInclude Include="MajorityElement.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="TrailingZero.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BSTIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -102,6 +108,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="MajorityElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TrailingZero.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BSTIterator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
