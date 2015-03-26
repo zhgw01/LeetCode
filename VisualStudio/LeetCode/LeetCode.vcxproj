@@ -85,6 +85,7 @@
     <ClInclude Include="MajorityElement.h" />
     <ClInclude Include="MaximumGap.h" />
     <ClInclude Include="MaxProduct.h" />
+    <ClInclude Include="MiniumHP.h" />
     <ClInclude Include="MinStack.h" />
     <ClInclude Include="Pascal.h" />
     <ClInclude Include="PeakNumber.h" />
@@ -103,6 +104,7 @@
     <ClCompile Include="MajorityElement.cpp" />
     <ClCompile Include="MaximumGap.cpp" />
     <ClCompile Include="MaxProduct.cpp" />
+    <ClCompile Include="MinimumHP.cpp" />
     <ClCompile Include="MinStack.cpp" />
     <ClCompile Include="Pascal.cpp" />
     <ClCompile Include="PeakNumber.cpp" />
