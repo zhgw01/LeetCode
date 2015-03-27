@@ -68,5 +68,8 @@
     <ClCompile Include="MinimumHPTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LargestNumberTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

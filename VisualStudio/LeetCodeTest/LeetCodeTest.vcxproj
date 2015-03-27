@@ -95,6 +95,7 @@
     <ClCompile Include="BSTIteratorTest.cpp" />
     <ClCompile Include="Fraction2DecimalTest.cpp" />
     <ClCompile Include="IntersectionListTest.cpp" />
+    <ClCompile Include="LargestNumberTest.cpp" />
     <ClCompile Include="ListUtil.cpp" />
     <ClCompile Include="MajorityElementTest.cpp" />
     <ClCompile Include="MaximumGapTest.cpp" />
