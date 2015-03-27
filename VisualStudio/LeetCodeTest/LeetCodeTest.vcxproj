@@ -93,6 +93,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BSTIteratorTest.cpp" />
+    <ClCompile Include="DNASequenceTest.cpp" />
     <ClCompile Include="Fraction2DecimalTest.cpp" />
     <ClCompile Include="IntersectionListTest.cpp" />
     <ClCompile Include="LargestNumberTest.cpp" />

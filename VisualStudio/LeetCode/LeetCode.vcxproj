@@ -78,6 +78,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BSTIterator.h" />
+    <ClInclude Include="DNASequence.h" />
     <ClInclude Include="Fraction2Decimal.h" />
     <ClInclude Include="IntersectionList.h" />
     <ClInclude Include="IRun.h" />
@@ -99,6 +100,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BSTIterator.cpp" />
+    <ClCompile Include="DNASequence.cpp" />
     <ClCompile Include="Fraction2Decimal.cpp" />
     <ClCompile Include="IntersectionList.cpp" />
     <ClCompile Include="LargestNumber.cpp" />
